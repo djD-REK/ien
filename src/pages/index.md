@@ -8,6 +8,8 @@ sections:
   component: Icons
   background_style: style2
   icons:
+  - title: Fighter Jet
+    icon: ".fa-fighter-jet"
   - title: Briefcase
     icon: fa-briefcase
   - title: Flag
@@ -24,8 +26,6 @@ sections:
     title: Line Chart
   - icon: fa-building
     title: Building
-  - icon: fa-comments-o
-    title: Comments (O)
 - type: spotlights
   template: spotlights
   title: Spotlights Section
