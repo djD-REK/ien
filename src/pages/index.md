@@ -10,8 +10,8 @@ sections:
   icons:
   - title: Briefcase
     icon: fa-briefcase
-  - title: City
-    icon: fa-city
+  - title: Wallet
+    icon: fa-wallet
   - title: Chart Line
     icon: fa-chart-line
   - title: Industry
@@ -34,10 +34,9 @@ sections:
   section_id: two
   component: Spotlights
   spotlights:
-  - title: Magna sed ultrices
-    text: Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit
-      fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet
-      leo non sapien iaculis efficitur consequat lorem ipsum.
+  - title: A monthly email newsetter
+    text: Iranian Economic News offers institutional subscribers fresh insights into
+      current economic and business news from Iran.
     image: images/pic01.jpg
   - title: Ultrices nullam aliquam
     text: Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit
