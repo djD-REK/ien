@@ -12,8 +12,8 @@ sections:
     icon: fa-briefcase
   - title: Wallet
     icon: fa-wallet
-  - title: Chart Line
-    icon: fa-chart-line
+  - title: Chart Area
+    icon: fa-chart-area
   - title: Industry
     icon: fa-industry
   - title: Globe
