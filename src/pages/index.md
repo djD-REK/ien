@@ -8,8 +8,6 @@ sections:
   component: Icons
   background_style: style2
   icons:
-  - title: Money
-    icon: fa-money
   - title: Briefcase
     icon: fa-briefcase
   - title: Flag
@@ -20,14 +18,16 @@ sections:
     icon: fa-pie-chart
   - title: Globe
     icon: fa-globe
-  - title: Fighter Jet
-    icon: ".fa-fighter-jet"
+  - title: Money
+    icon: fa-money
   - icon: fa-list-alt
     title: List (Alt)
   - icon: fa-line-chart
     title: Line Chart
   - icon: fa-building
     title: Building
+  - title: Bar Chart
+    icon: fa-bar-chart
 - type: spotlights
   template: spotlights
   title: Spotlights Section
@@ -78,7 +78,7 @@ sections:
     is_scrolly: false
     icon: ''
 - template: cta
-  title: CTA Section
+  title: Iranian Economic News Logo
   section_id: four
   component: Cta
   type: cta
