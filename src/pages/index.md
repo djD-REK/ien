@@ -14,14 +14,14 @@ sections:
     icon: fa-flag
   - title: Road
     icon: fa-road
-  - title: Pie Chart
-    icon: fa-pie-chart
+  - title: Bar Chart
+    icon: fa-bar-chart
   - title: Globe
     icon: fa-globe
   - icon: fa-list-alt
     title: List (Alt)
-  - title: Bar Chart
-    icon: fa-bar-chart
+  - title: Pie Chart
+    icon: fa-pie-chart
   - icon: fa-building
     title: Building
   - icon: fa-line-chart
