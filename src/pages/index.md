@@ -10,24 +10,20 @@ sections:
   icons:
   - title: Briefcase
     icon: fa-briefcase
-  - title: Wallet
-    icon: fa-wallet
-  - title: Chart Area
-    icon: fa-chart-area
+  - title: Comments Dollar
+    icon: fa-comments-dollar
+  - title: Chart Pie
+    icon: fa-chart-pie
   - title: Industry
     icon: fa-industry
   - title: Globe
     icon: fa-globe
-  - icon: fa-money-bill-wave
-    title: Money Bill Wave
+  - icon: fa-money-bill
+    title: Money Bill
   - icon: fa-business-time
     title: Business Time
   - icon: fa-building
     title: Building
-  - title: Envelope
-    icon: fa-envelope
-  - title: Stripe
-    icon: fa-cc-stripe
 - type: spotlights
   template: spotlights
   title: Spotlights Section
