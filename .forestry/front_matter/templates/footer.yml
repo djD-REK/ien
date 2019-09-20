@@ -41,9 +41,3 @@ fields:
     default: true
   config:
     labelField: text
-- name: iranian_economic_news_logo
-  type: file
-  config:
-    maxSize: 250
-  label: Iranian Economic News Logo
-  description: The logo for Iranian Economic News Logo
