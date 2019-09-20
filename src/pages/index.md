@@ -18,16 +18,16 @@ sections:
     icon: fa-pie-chart
   - title: Globe
     icon: fa-globe
-  - title: Money
-    icon: fa-money
   - icon: fa-list-alt
     title: List (Alt)
-  - icon: fa-line-chart
-    title: Line Chart
-  - icon: fa-building
-    title: Building
   - title: Bar Chart
     icon: fa-bar-chart
+  - icon: fa-building
+    title: Building
+  - icon: fa-line-chart
+    title: Line Chart
+  - title: Money
+    icon: fa-money
 - type: spotlights
   template: spotlights
   title: Spotlights Section
