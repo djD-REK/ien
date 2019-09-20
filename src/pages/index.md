@@ -3,7 +3,8 @@ title: Home
 sections:
 - type: icons
   template: icons
-  title: Subscribe for the latest economic news about Iran.
+  title: Iranian Economic News offers institutional subscribers fresh insights into
+    current economic and business news from Iran.
   section_id: one
   component: Icons
   background_style: style2
