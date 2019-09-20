@@ -65,11 +65,11 @@ sections:
   actions:
   - label: Subscribe
     icon: fa-envelope
-    url: "#"
+    url: "/subscribe"
     is_primary: true
     is_scrolly: false
   - label: Learn More
-    url: "/elements"
+    url: "/about"
     is_primary: false
     is_scrolly: false
     icon: ''
