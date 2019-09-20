@@ -1,8 +1,8 @@
 ---
 social_icons:
-- title: Email
-  icon: envelope
-  url: ''
+- title: Contact
+  icon: fa-envelope
+  url: "/contact"
 copyright: "&copy; 2019 Iranian Economic News -- Subscribe for the latest economic
   news about Iran."
 links:
