@@ -35,19 +35,18 @@ sections:
   component: Spotlights
   spotlights:
   - title: A monthly email newsetter
-    text: Iranian Economic News offers institutional subscribers fresh insights into
-      current economic and business news from Iran.
-    image: images/pic01.jpg
-  - title: Ultrices nullam aliquam
-    text: Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit
-      fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet
-      leo non sapien iaculis efficitur consequat lorem ipsum.
-    image: images/pic02.jpg
-  - title: Aliquam sed magna
-    text: Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit
-      fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet
-      leo non sapien iaculis efficitur consequat lorem ipsum.
-    image: images/pic03.jpg
+    text: Get access to exclusive reporting about the Iranian economy and its 80,000,000
+      consumers.
+    image: "/images/behzad-ghaffarian-agGyKOiowuk-unsplash.jpg"
+  - title: Insights on Iranian economics, business, and finance
+    text: Iranian Economic News has featured sections every month about economic trends,
+      business inside Iran, and financial developments including coverage of the Iranian
+      stock market.
+    image: "/images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg"
+  - title: Exclusive news and coverage
+    text: Get information not available anywhere else about the Tehran stock market,
+      Iranian business developments, and the state of the Iranian economy.
+    image: "/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg"
   icons:
   - title: Ipsum lorem accumsan
     icon: fa-camera-retro
