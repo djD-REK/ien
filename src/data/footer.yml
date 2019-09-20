@@ -1,11 +1,15 @@
 ---
 social_icons:
+- title: Twitter
+  icon: fa-twitter
+  url: https://twitter.com/iranianeconomicnews
 - title: Contact
   icon: fa-envelope
   url: "/contact"
 copyright: "&copy; 2019 Iranian Economic News -- Subscribe for the latest economic
   news about Iran."
 links:
+- new_window: true
 - text: About
   url: "/about"
   new_window: false
