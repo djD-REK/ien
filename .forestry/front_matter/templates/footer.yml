@@ -41,3 +41,8 @@ fields:
     default: true
   config:
     labelField: text
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
