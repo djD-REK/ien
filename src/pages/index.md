@@ -78,12 +78,12 @@ sections:
     is_scrolly: false
     icon: ''
 - template: cta
-  title: Iranian Economic News Logo
-  section_id: four
+  title: CTA Section
+  section_id: three
   component: Cta
   type: cta
   background_style: style1
-  subtitle: "![](/images/logo_transparent.png)"
+  subtitle: "![](/images/logo_white.png)"
   actions: []
 template: home
 
