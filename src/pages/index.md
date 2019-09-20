@@ -38,7 +38,7 @@ sections:
     text: Get access to exclusive reporting about the Iranian economy and its 80,000,000
       consumers.
     image: "/images/behzad-ghaffarian-agGyKOiowuk-unsplash.jpg"
-  - title: Insights on Iranian economics, business, and finance
+  - title: Insights on economics, business, and finance
     text: Iranian Economic News has featured sections every month about economic trends,
       business inside Iran, and financial developments including coverage of the Iranian
       stock market.
