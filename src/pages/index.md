@@ -8,8 +8,8 @@ sections:
   component: Icons
   background_style: style2
   icons:
-  - title: Fighter Jet
-    icon: ".fa-fighter-jet"
+  - title: Money
+    icon: fa-money
   - title: Briefcase
     icon: fa-briefcase
   - title: Flag
@@ -20,6 +20,8 @@ sections:
     icon: fa-pie-chart
   - title: Globe
     icon: fa-globe
+  - title: Fighter Jet
+    icon: ".fa-fighter-jet"
   - icon: fa-list-alt
     title: List (Alt)
   - icon: fa-line-chart
