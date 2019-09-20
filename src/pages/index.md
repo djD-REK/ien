@@ -3,19 +3,31 @@ title: Home
 sections:
 - type: icons
   template: icons
-  title: |-
-    Sed ipsum magna lorem tempus amet
-    vehicula et gravida elementum
+  title: Subscribe for the latest economic news about Iran.
   section_id: one
   component: Icons
   background_style: style2
   icons:
-  - title: Shoot
-    icon: fa-camera-retro
-  - title: Process
-    icon: fa-refresh
-  - title: Upload
-    icon: fa-cloud
+  - title: Briefcase
+    icon: fa-briefcase
+  - title: City
+    icon: fa-city
+  - title: Chart Line
+    icon: fa-chart-line
+  - title: Industry
+    icon: fa-industry
+  - title: Globe
+    icon: fa-globe
+  - icon: fa-money-bill-wave
+    title: Money Bill Wave
+  - icon: fa-business-time
+    title: Business Time
+  - icon: fa-building
+    title: Building
+  - title: Envelope
+    icon: fa-envelope
+  - title: Stripe
+    icon: fa-cc-stripe
 - type: spotlights
   template: spotlights
   title: Spotlights Section
