@@ -2,9 +2,9 @@
 title_url: "#"
 subtitle: "Nibh sed aliquam, cursus arcu aliquet  \nnatoque rhoncus ut non in Aliquet"
 actions:
-- label: Download
-  icon: fa-download
-  url: "/elements"
+- label: Subscribe
+  icon: fa-envelope
+  url: "/subscribe"
   is_primary: true
   is_scrolly: false
 - label: Learn More
