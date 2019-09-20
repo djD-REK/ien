@@ -10,16 +10,16 @@ sections:
   icons:
   - title: Briefcase
     icon: fa-briefcase
-  - title: Comments Dollar
-    icon: fa-comments-dollar
-  - title: Chart Pie
-    icon: fa-chart-pie
+  - title: Flag
+    icon: fa-flag
+  - title: Road
+    icon: fa-road
   - title: Industry
     icon: fa-industry
   - title: Globe
     icon: fa-globe
-  - icon: fa-money-bill
-    title: Money Bill
+  - icon: fa-list-alt
+    title: List (Alt)
   - icon: fa-business-time
     title: Business Time
   - icon: fa-building
@@ -47,7 +47,7 @@ sections:
   - title: Monthly email subscription
     icon: fa-envelope
   - title: Secure online payments
-    icon: fa-stripe
+    icon: fa-cc-stripe
   - title: For institutional subscribers
     icon: fa-university
   - title: Exclusive news coverage
