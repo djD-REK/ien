@@ -36,7 +36,7 @@ sections:
   spotlights:
   - title: A monthly email newsetter
     text: Get access to exclusive reporting about the Iranian economy and its 80,000,000
-      consumers.
+      consumers meant for institutional subscribers.
     image: "/images/behzad-ghaffarian-agGyKOiowuk-unsplash.jpg"
   - title: Insights on economics, business, and finance
     text: Iranian Economic News has featured sections every month about economic trends,
