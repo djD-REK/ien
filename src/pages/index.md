@@ -24,6 +24,8 @@ sections:
     title: Line Chart
   - icon: fa-building
     title: Building
+  - icon: fa-comments-o
+    title: Comments (O)
 - type: spotlights
   template: spotlights
   title: Spotlights Section
