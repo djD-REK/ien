@@ -8,7 +8,7 @@ copyright: "&copy; 2019 Iranian Economic News -- Subscribe for the latest econom
 links:
 - text: About
   url: "/about"
-  new_window: true
+  new_window: false
 - text: Subscribe Now
   url: "/"
   new_window: false
