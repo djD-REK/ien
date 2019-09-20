@@ -14,8 +14,8 @@ sections:
     icon: fa-flag
   - title: Road
     icon: fa-road
-  - title: Industry
-    icon: fa-industry
+  - title: Pie Chart
+    icon: fa-pie-chart
   - title: Globe
     icon: fa-globe
   - icon: fa-list-alt
