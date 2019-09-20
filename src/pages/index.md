@@ -48,16 +48,16 @@ sections:
       Iranian business developments, and the state of the Iranian economy.
     image: "/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg"
   icons:
-  - title: Ipsum lorem accumsan
-    icon: fa-camera-retro
-  - title: Sed vehicula elementum
-    icon: fa-refresh
-  - title: Elit fusce consequat
-    icon: fa-cloud
-  - title: Lorem nullam tempus
-    icon: fa-code
-  - title: Adipiscing amet sapien
-    icon: fa-desktop
+  - title: Monthly email subscription
+    icon: fa-envelope
+  - title: Secure online payments
+    icon: fa-stripe
+  - title: For institutional subscribers
+    icon: fa-university
+  - title: Exclusive news coverage
+    icon: fa-comment-dollar
+  - title: Iranian Economic News
+    icon: fa-globe
 - type: cta
   template: cta
   title: Subscribe to Iranian Economic News
