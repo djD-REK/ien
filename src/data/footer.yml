@@ -6,6 +6,9 @@ social_icons:
 copyright: "&copy; 2019 Iranian Economic News -- Subscribe for the latest economic
   news about Iran."
 links:
+- text: About
+  url: "/about"
+  new_window: true
 - text: Subscribe Now
   url: "/"
   new_window: false
