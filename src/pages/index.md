@@ -20,8 +20,8 @@ sections:
     icon: fa-globe
   - icon: fa-list-alt
     title: List (Alt)
-  - icon: fa-business-time
-    title: Business Time
+  - icon: fa-line-chart
+    title: Line Chart
   - icon: fa-building
     title: Building
 - type: spotlights
@@ -51,7 +51,7 @@ sections:
   - title: For institutional subscribers
     icon: fa-university
   - title: Exclusive news coverage
-    icon: fa-comment-dollar
+    icon: fa-commenting
   - title: Iranian Economic News
     icon: fa-globe
 - type: cta
