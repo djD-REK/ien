@@ -77,14 +77,6 @@ sections:
     is_primary: false
     is_scrolly: false
     icon: ''
-- template: cta
-  title: CTA Section
-  section_id: three
-  component: Cta
-  type: cta
-  background_style: style1
-  subtitle: "![](/images/logo_white.png)"
-  actions: []
 template: home
 
 ---
