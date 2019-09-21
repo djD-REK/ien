@@ -13,5 +13,5 @@ actions:
   is_primary: false
   is_scrolly: true
 img:
-  path: "/images/tall-iranian-flag-by-mostafa-meraji-1.png"
+  path: "/images/tall-iranian-flag-by-mostafa-meraji.png"
   phone_border: true
