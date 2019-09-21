@@ -63,8 +63,10 @@ sections:
   title: Subscribe to Iranian Economic News
   section_id: three
   component: Cta
-  subtitle: Subscribe to the only monthly newsletter covering Iranian business, economic,
-    and stock market news.
+  subtitle: |-
+    Subscribe to the only monthly newsletter covering Iranian business, economic, and stock market news.
+
+    ![](/images/logo_whitespace_1.png)
   background_style: style2
   actions:
   - label: Subscribe
