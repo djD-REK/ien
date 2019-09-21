@@ -5,8 +5,14 @@ social_icons:
   url: https://twitter.com/iranianeconomicnews
 copyright: "&copy; 2019 Iranian Economic News. The latest economic news about Iran. "
 links:
-- text: Subscribe now
+- text: Subscribe
   url: "/subscribe"
   new_window: false
+- text: About
+  url: "/about"
+  new_window: false
+- text: Contact
+  url: "/contact"
+  new_window: false
 iranian_economic_news_logo: ''
-logo: "/images/logo_transparent.png"
+logo: ''
