@@ -66,7 +66,7 @@ sections:
   subtitle: |-
     Subscribe to the only monthly newsletter covering Iranian business, economic, and stock market news.
 
-    ![](/images/logo_grayspace_3.png)
+    ![](/images/abbreviated-logo-wide.png)
   background_style: style2
   actions:
   - label: Subscribe
