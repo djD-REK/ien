@@ -67,6 +67,8 @@ sections:
     Subscribe to the only monthly newsletter covering Iranian business, economic, and stock market news.
 
     ![](/images/logo_whitespace_1.png)
+
+    ![](/images/logo_grayspace_3.png)
   background_style: style2
   actions:
   - label: Subscribe
