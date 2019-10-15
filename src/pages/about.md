@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 sections:
 - type: icons
   template: icons
@@ -79,6 +79,6 @@ sections:
     is_primary: false
     is_scrolly: false
     icon: ''
-template: home
+template: about
 
 ---
