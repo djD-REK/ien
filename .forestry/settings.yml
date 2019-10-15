@@ -34,7 +34,6 @@ sections:
 - type: document
   path: src/pages/about.md
   label: About IEN
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
