@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 sections:
 - type: cta
   template: cta
@@ -24,6 +24,6 @@ Mr. Terner spent six years living, studying, and working in the Middle East. His
     is_primary: false
     is_scrolly: false
     icon: ''
-template: home
+template: about
 
 ---
