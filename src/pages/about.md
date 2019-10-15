@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 sections:
 - type: icons
   template: icons
