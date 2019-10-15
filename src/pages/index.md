@@ -74,7 +74,7 @@ sections:
     url: "/subscribe"
     is_primary: true
     is_scrolly: false
-  - label: Learn More
+  - label: About IEN
     url: "/about"
     is_primary: false
     is_scrolly: false
