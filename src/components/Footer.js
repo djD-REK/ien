@@ -1,7 +1,7 @@
-import React from "react";
-import _ from "lodash";
+import React from "react"
+import _ from "lodash"
 
-import { Link, htmlToReact } from "../utils";
+import { Link, htmlToReact, safePrefix } from "../utils"
 
 export default class Footer extends React.Component {
   render() {
@@ -26,6 +26,8 @@ export default class Footer extends React.Component {
         )}
         {_.get(this.props, "pageContext.site.data.footer.copyright") && (
           <p className="copyright">
+            ©&nbsp;{new Date().getFullYear()}&nbsp;
+            {_.get(this.props, "pageContext.site.siteMetadata.title")}
             {htmlToReact(
               _.get(this.props, "pageContext.site.data.footer.copyright")
             )}
@@ -49,7 +51,15 @@ export default class Footer extends React.Component {
             )}
           </p>
         )}
+        <div className="image">
+          <img
+            src={safePrefix(
+              _.get(this.props, "pageContext.site.data.footer.logo")
+            )}
+            alt="Iranian Economic News logo"
+          />
+        </div>
       </footer>
-    );
+    )
   }
 }
