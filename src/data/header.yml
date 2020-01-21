@@ -1,17 +1,17 @@
 ---
 title_url: "#"
-subtitle: A monthly email newsletter about the Iranian economy
+subtitle: A free email newsletter about the Iranian economy
 actions:
   - label: Subscribe
     icon: fa-envelope
-    url: "/subscribe"
+    url: "#subscribe"
     is_primary: true
-    is_scrolly: false
+    is_scrolly: true
   - label: Learn More
     icon: fa-chevron-down
-    url: "#one"
+    url: "#why_subscribe"
     is_primary: false
     is_scrolly: true
 img:
-  path: "/images/tall-iranian-flag-by-mostafa-meraji.png"
+  path: "/images/abbreviated-logo-iran-map.png"
   phone_border: true
