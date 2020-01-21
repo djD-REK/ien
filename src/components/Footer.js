@@ -53,10 +53,9 @@ export default class Footer extends React.Component {
         )}
         <div className="image">
           <img
-            src={safePrefix(
-              _.get(this.props, "pageContext.site.data.footer.logo")
-            )}
+            src="/images/abbreviated-logo-iran-map-extra-wide.png"
             alt="Iranian Economic News logo"
+            width="600"
           />
         </div>
       </footer>

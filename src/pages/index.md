@@ -36,31 +36,10 @@ sections:
     paragraphs:
       - title: "For governmental institutions and think tanks:"
         text: "On August 27, 2019, Esfandyar Batmanghelidj at the Atlantic Council issued a [report](https://twitter.com/EconomicIranian/status/1174722414938382336) decrying the dearth of understanding of the Iranian economy among European and North American policymakers. He argued that one of the primary results of the international sanctions regime has been to show just how little we understand and are able to anticipate the way the Iranian economy impacts its governmental policies. By tracing and analyzing politico-economic developments in Iran, this newsletter offers timely insight into efforts by Iranian businesses, officials, and international partners to stabilize and expand its economic system."
-        image: "/images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg"
+        image: "/images/Agriculture, Manufacturing, and Textiles photo.jpg"
       - title: "For companies and corporations:"
         text: "The Iranian population is one of the world's largest but its economy is only moderately-developed. In addition to its established energy and agricultural sectors, as well as its budding financial and technology sectors, these circumstances offer unique and lucrative foreign investment opportunities. Although geopolitical tensions, sanctions, and Iran's own complex political and economic circumstances presently stand in the way, international business entities are eager to identify opportunities and prepare their positions to enter the Iranian market in the near term. It is for that reason that this newsletter tracks, reports, and analyses Iran's efforts to develop its market for foreign investment."
         image: "/images/Banking, Currency, Policy photo.jpg"
-  - type: spotlights
-    template: spotlights
-    title: Core areas of focus in Iranian Economic News
-    section_id: spotlightsSection
-    component: Spotlights
-    spotlights:
-      - title: Banking, Currency, and Policy
-        text: (blurb)
-        image: "/images/behzad-ghaffarian-agGyKOiowuk-unsplash.jpg"
-      - title: Energy and Mining
-        text: (blurb)
-        image: "/images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg"
-      - title: Medicine, Science, and Technology
-        text: (blurb)
-        image: "/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg"
-      - title: Agriculture, Manufacturing, and Textiles
-        text: (blurb)
-        image: "/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg"
-      - title: Imports, Exports, and International Partnerships
-        text: (blurb)
-        image: "/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg"
     icons:
       - title: Free email subscription
         icon: fa-envelope
@@ -75,7 +54,7 @@ sections:
   - type: cta
     template: cta
     title: Subscribe to Iranian Economic News
-    section_id: callToActionSection
+    section_id: call_to_action
     component: Cta
     subtitle: |-
       Subscribe to receive detailed updates and analyses on Iranian efforts to tackle international sanctions, political corruption, and mismanagement. Understand how its embattled society is leading its government in efforts to develop what could become one of the world’s most efficient exporters of energy, technology, petrochemicals, pharmaceuticals, agricultural products, and more.
@@ -86,13 +65,23 @@ sections:
     actions:
       - label: Subscribe
         icon: fa-envelope
-        url: "https://tinyletter.com/IranianEconomicNews"
+        url: "#subscribe"
         is_primary: true
-        is_scrolly: false
+        is_scrolly: true
       - label: Follow IEN on Twitter
         icon: fa-twitter
-        url: "https://twitter.com/iranianeconomy"
+        url: "https://twitter.com/IranianEconomy"
         is_primary: false
         is_scrolly: false
+  - type: cta
+    template: cta
+    title: About the author
+    section_id: about
+    component: Cta
+    subtitle: |-
+      Steven Terner is a multi-lingual American scholar and researcher who has spent more than a decade specializing in socio-political and economic analysis of the Middle East and Central/West Asia, with a focus on Iran. His intent is to serve as a cultural liaison, guiding international business in expanding global markets.
+
+      Mr. Terner spent six years living, studying, and working in the Middle East. His professional experience includes the Jerusalem Post, the Indian Embassy in Israel, and the Atlantic Council and Hudson Institute think tanks in Washington, DC. He holds an MA in Middle East Studies, an MA in Government, and is completing a PhD in Middle East History.
+    background_style: style2
 template: home
 ---
