@@ -17,19 +17,15 @@
 			position: relative;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
+			font-size: 1.25em;
+
 			// Small.
 				@include breakpoint('<=small') {
 					br {
 						display: none;
 					}
 				}
-
-		}
-
-		h2 + p {
-			font-size: 1.25em;
-			margin-top: (_size(element-margin) * -0.25);
-			line-height: 1.5em;
+			
 		}
 
 		h3 + p {
@@ -50,6 +46,29 @@
 			margin: 0 0 (_size(element-margin) * 1.25) 0;
 			text-align: center;
 
+			h2 {
+				font-size: 1.5em;
+				margin-top: (_size(element-margin) * -0.25);
+				line-height: 1.5em;
+			}
+
+			p {
+				line-height: 1.5em;
+			}
+
+			ul {
+				font-size: 1.25em;
+				line-height: 1.5em;
+				li {
+					padding-bottom: 1.5em;
+
+					&:last-of-type {
+						padding-bottom: 0;
+					}
+	
+				}
+			}
+
 			&:after {
 				content: '';
 				border-bottom: solid (_size(border-width) * 2) _palette(border);
@@ -62,7 +81,7 @@
 				@include breakpoint('<=small') {
 					margin: 0 0 _size(element-margin) 0;
 
-					p {
+					p,ul {
 						font-size: 1em;
 					}
 				}
