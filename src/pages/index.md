@@ -12,12 +12,17 @@ sections:
       Subscribe to receive detailed updates and analyses on Iranian efforts to tackle international sanctions, political corruption, and mismanagement.
       
       Understand how Iran's embattled society is leading its government in efforts to develop what could become one of the world’s most efficient exporters of energy, technology, petrochemicals, pharmaceuticals, agricultural products, and more.
-      
+    image: /images/Iran%20Currency.jpg
+  - type: cta
+    template: cta
+    background_style: style2
+    title: Iranian Economic News is a free email newsletter covering the Iranian Economy
+    section_id: call_to_action
+    component: Cta
+    subtitle: |-
       * Stay up-to-date on unfolding Iranian economic matters.
       * Read accessible analyses of Farsi-language new sources.
       * See how the Iranian economy reacts to domestic and foreign policy.
-
-    background_style: style2
     actions:
       - label: About
         icon: fa-address-card

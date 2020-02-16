@@ -11,9 +11,9 @@
 		border-bottom: none;
 		position: relative;
 
-		> .label {
+		/* > .label {
 			display: none;
-		}
+		}*/
 	}
 
 	@mixin color-icon($p: null) {

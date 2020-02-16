@@ -43,7 +43,8 @@
 		}
 
 		&.major {
-			margin: 0 0 (_size(element-margin) * 1.25) 0;
+			//margin: 0 0 (_size(element-margin) * 1.25) 0;
+			margin: 0;
 			text-align: center;
 
 			h2 {
@@ -57,6 +58,7 @@
 			}
 
 			ul {
+				margin: 0; // to clear margin, since actions (buttons) have a margin-bottom
 				font-size: 1.25em;
 				line-height: 1.5em;
 				li {
@@ -69,13 +71,14 @@
 				}
 			}
 
-			&:after {
+			// Tiny border line separating sections:
+			/*&:after {
 				content: '';
 				border-bottom: solid (_size(border-width) * 2) _palette(border);
 				display: block;
 				width: 4em;
 				margin: _size(element-margin) auto 0 auto;
-			}
+			}*/
 
 			// Small.
 				@include breakpoint('<=small') {
