@@ -20,6 +20,19 @@
 			font-size: 0.8em;
 		}
 
+		.logo {
+			width: 13em;
+	
+			img {
+				width: 100%;
+			}	
+
+			.inner, &:before, &:after {
+				display: block;
+				border: solid (_size(border-width) * 2) _palette(accent1, border);
+			}
+		}	
+
 		// Medium.
 			@include breakpoint('<=medium') {
 				@include padding(4em, 4em);
