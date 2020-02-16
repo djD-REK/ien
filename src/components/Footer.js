@@ -51,11 +51,11 @@ export default class Footer extends React.Component {
             )}
           </p>
         )}
-        <div className="image">
+        <div className="image" style={{width: "13em"}}>
           <img
-            src="/images/abbreviated-logo-iran-map-extra-wide.png"
+            src="/images/abbreviated-logo-iran-map-extra-wide-600px.png"
             alt="Iranian Economic News logo"
-            width="600"
+            style={{width: "100%"}}
           />
         </div>
       </footer>
