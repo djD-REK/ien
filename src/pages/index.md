@@ -1,5 +1,26 @@
 ---
 title: Home
+header_title_url: "#"
+header_subtitle: "A free email newsletter about the Iranian economy"
+header_actions:
+  - label: About
+    icon: fa-address-card
+    url: "about"
+    is_primary: false
+    is_scrolly: false
+  - label: Why Subscribe
+    icon: fa-question-circle
+    url: "why-subscribe"
+    is_primary: false
+    is_scrolly: false
+  - label: Subscribe Free
+    icon: fa-envelope
+    url: "subscribe-free"
+    is_primary: true
+    is_scrolly: false
+header_img:
+  path: "/images/abbreviated-logo-iran-map.png"
+  phone_border: true
 sections:
   - type: cta
     template: cta
