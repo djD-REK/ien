@@ -8,10 +8,17 @@ import Footer from './Footer';
 
 export default class Body extends React.Component {
     render() {
+        let title = "Hi"
+        if(_.get(this.props, 'pageContext.frontmatter.title') === "Home") {
+            title = _.get(this.props, 'pageContext.site.siteMetadata.title') + ' - ' + _.get(this.props, 'pageContext.site.data.header.subtitle')
+        }
+        else {
+            title = _.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - ' + _.get(this.props, 'pageContext.site.siteMetadata.title')
+        }        
         return (
             <React.Fragment>
                 <Helmet>
-                    <title>{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}</title>
+                    <title>{title}</title>
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initialScale=1, userScalable=no" />
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')} />
