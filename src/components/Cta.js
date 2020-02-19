@@ -5,22 +5,24 @@ import {htmlToReact, markdownify, Link, safePrefix} from '../utils';
 
 export default class Cta extends React.Component {
     render() {
+        let background_style = _.get(this.props, 'section.background_style')
+        background_style = background_style === undefined ? "" : background_style + ' '
+        const image_URL = _.get(this.props, 'section.image')
         return (
-            <section id={_.get(this.props, 'section.section_id')} className={'wrapper ' + _.get(this.props, 'section.background_style') + ' special'}>
-                <header className="major" style={{display: "flex"}}>
-                    {_.get(this.props, 'section.image') && 
-                        <div style={{flex: "40%", marginRight: "1em"}}>
-                            <div className={"image"}>
-                                <img src={_.get(this.props, 'section.image')}/>
+            <section id={_.get(this.props, 'section.section_id')} className={'wrapper ' + background_style + 'special'}>
+                <header className="major">
+                    <div className={image_URL && "grid_wrapper"}>
+                        {image_URL && 
+                            <div className="grid_image">
+                                <div className={"image"}>
+                                    <img src={image_URL}/>
+                                </div>
                             </div>
-                        </div>
-                    }
-                    <div style={{flex: "60%"}}>
-                        <h2>{htmlToReact(_.get(this.props, 'section.title').replace(/\n/g, '<br />'))}</h2>
-                        {markdownify(_.get(this.props, 'section.subtitle'))}
+                        }
+                        <h2 className={image_URL && "grid_heading"}>{htmlToReact(_.get(this.props, 'section.title').replace(/\n/g, '<br />'))}</h2>
+                        <div className={image_URL && "grid_text"}>{markdownify(_.get(this.props, 'section.subtitle'))}</div>
                     </div>
                 </header>
-                <br style={{clear: "both", height: "0", margin: "0", lineHeight: "0", fontSize: "1px"}}/>
                 {_.get(this.props, 'section.actions') && 
                     <ul className="actions special">
                         {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (

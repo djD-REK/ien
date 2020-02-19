@@ -28,8 +28,8 @@ export default class Header extends React.Component {
                         </ul>
                     }
                 </div>
-                {_.get(this.props, 'pageContext.frontmatter.header_img') && 
-                    <div className={classNames('image', {'phone': _.get(this.props, 'pageContext.frontmatter.header_img.phone_border')})}><div className="inner"><img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.header_img.path'))} alt="" /></div></div>
+                {_.get(this.props, 'pageContext.frontmatter.header_image') && 
+                    <div className={classNames('image', {'phone': _.get(this.props, 'pageContext.frontmatter.header_image.phone_border')})}><div className="inner"><img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.header_image.path'))} alt="" /></div></div>
                 }
             </header>
         );

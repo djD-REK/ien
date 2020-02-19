@@ -18,7 +18,7 @@ header_actions:
     url: "subscribe-free"
     is_primary: true
     is_scrolly: false
-header_img:
+header_image:
   path: "/images/abbreviated-logo-iran-map.png"
   phone_border: true
 sections:

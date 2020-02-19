@@ -12,11 +12,6 @@ sections:
   templates:
   - config
 - type: document
-  path: src/data/header.yml
-  label: Header Configuration
-  templates:
-  - header
-- type: document
   path: src/data/footer.yml
   label: Footer Configuration
   templates:

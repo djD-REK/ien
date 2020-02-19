@@ -127,7 +127,10 @@ $palette: (
 	@import 'components/section';
 	@import 'components/spotlight';
 	@import 'components/table';
-	@import 'components/wrapper';
+    @import 'components/wrapper';
+    
+    // Below is custom, above is from Fractal
+    @import 'components/grid';
 
 // Layout.
 
