@@ -1,6 +1,6 @@
 {
   "title": "Iranian Economic News",
-  "palette": "blue",
+  "palette": "transparent_gray",
   "palettes": {
     "blue": {
       "sass": {
@@ -15,6 +15,21 @@
     "purple": {
       "sass": {
         "color": "#786dc2"
+      }
+    },
+    "iran_green": {
+      "sass": {
+        "color": "#239F40"
+      }
+    },
+    "iran_red": {
+      "sass": {
+        "color": "#DA0000"
+      }
+    },
+    "transparent_gray": {
+      "sass": {
+        "color": "rgba(0,0,0,0.5)"
       }
     }
   }

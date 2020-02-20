@@ -7,15 +7,21 @@
 /* Header */
 
 	#header {
-		@include color(accent1);
+		@include color(accent1);//
+		color: white;
 		@include padding(4.5em, 0);
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
+		/* Fractal background (blue with pattern)
 		background-image: url('images/overlay.png'), url('images/pattern-size1.svg');
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
-		background-size: auto, cover;
+		background-size: auto, cover;*/
+		background-image: url('/images/Iran%20Tehran%20traffic.jpg');
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
 		height: 100vh;
 		min-height: 35em;
 
@@ -48,17 +54,30 @@
 			.actions {
 				@include vendor('justify-content', 'flex-end');
 			}
+
+			background-color: rgba(0,0,0,0.5);
+			padding: 1em;
+			border-radius: 1em;
+			border: 1px solid black;
 		}
 
 		.image {
 			@include vendor('transition', ('opacity 1s ease', 'transform 1s ease'));
 			@include vendor('transform', 'translateY(0)');
 			opacity: 1;
+			
+			// Make all header images the same, even if they don't have the phone border:
+			width: 13em;
+			border-radius: 1em;
+
+			// Recenter header image
+			top: -1.5em;
 
 			img {
 				@include vendor('transition', 'opacity 0.75s ease');
 				@include vendor('transition-delay', '0.75s');
 				opacity: 1;
+				width: 100%;
 			}
 		}
 

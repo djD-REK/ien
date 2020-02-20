@@ -7,13 +7,13 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer id="footer">
-        <div class="wrapper">
+        <div class="wrapper samples">
         <h3 class="icon fa-download">
           &nbsp;Download free samples of Iranian Economic News&nbsp;<span class="icon fa-download" style={{color: "inherit"}}></span>
           </h3>
-        <ul className="samples actions special">
-          <li><a class="button icon fa-file-pdf-o" href="#" title="Economists Make Policy Recommendations in Open Letter to President">Sample 1</a></li>
-          <li><a class="button icon fa-file-pdf-o" href="#" title="Opposition Mounts against Reopening Commerce Ministry">Sample 2</a></li>
+        <ul className="actions special">
+          <li><a class="button icon fa-file-pdf-o iran_green" href="#" title="Economists Make Policy Recommendations in Open Letter to President">Sample 1</a></li>
+          <li><a class="button icon fa-file-pdf-o iran_red" href="#" title="Opposition Mounts against Reopening Commerce Ministry">Sample 2</a></li>
         </ul>
         </div>
         {_.get(this.props, "pageContext.site.data.footer.social_icons") && (

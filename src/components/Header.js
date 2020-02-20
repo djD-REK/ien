@@ -10,20 +10,29 @@ export default class Header extends React.Component {
         const page_markdown_title = _.get(this.props, 'pageContext.frontmatter.title')
         let heading_title = "Hi"
         if(page_markdown_title === "Home") {
-            heading_title = site_title
+            heading_title = ""
         }
         else {
-            heading_title = page_markdown_title && page_markdown_title + ' ' + site_title
+            heading_title = page_markdown_title && page_markdown_title + '&nbsp;'
         }
         return (
             <header id="header">
                 <div className="content">
-                    <h1><Link to={(_.get(this.props, 'pageContext.frontmatter.header_title_url').startsWith('#') ? _.get(this.props, 'pageContext.frontmatter.header_title_url') : safePrefix(_.get(this.props, 'pageContext.frontmatter.header_title_url')))}>{heading_title}</Link></h1>
+                    <h1><Link to={(_.get(this.props, 'pageContext.frontmatter.header_title_url').startsWith('#') ? _.get(this.props, 'pageContext.frontmatter.header_title_url') : safePrefix(_.get(this.props, 'pageContext.frontmatter.header_title_url')))}>
+                        {heading_title}
+                        <span className="iran_green">Iranian&nbsp;</span> 
+                        <span className="iran_white">Economic</span> 
+                        <span className="iran_red">&nbsp;News</span>
+                    </Link></h1>
                     {markdownify(_.get(this.props, 'pageContext.frontmatter.header_subtitle'))}
                     {_.get(this.props, 'pageContext.frontmatter.header_actions') && 
                         <ul className="actions">
                             {_.map(_.get(this.props, 'pageContext.frontmatter.header_actions'), (action, action_idx) => (
-                                <li key={action_idx}><Link to={(_.get(action, 'url').startsWith('#') ? _.get(action, 'url') : safePrefix(_.get(action, 'url')))} className={'button' + (_.get(action, 'is_primary') ? ' primary' : '') + (_.get(action, 'icon') ? ' icon ' + _.get(action, 'icon') : '') + (_.get(action, 'is_scrolly') ? ' scrolly' : '')}>{_.get(action, 'label')}</Link></li>
+                                <li key={action_idx}>
+                                    <Link to={(_.get(action, 'url').startsWith('#') ? _.get(action, 'url') : safePrefix(_.get(action, 'url')))} className={'button' + (_.get(action, 'is_primary') ? ' primary' : '') + (_.get(action, 'icon') ? ' icon ' + _.get(action, 'icon') : '') + (_.get(action, 'is_scrolly') ? ' scrolly' : '') + (_.get(action, 'color') ? (' '+_.get(action, 'color')) : '')}>
+                                        {_.get(action, 'label')}
+                                    </Link>
+                                </li>
                             ))}
                         </ul>
                     }

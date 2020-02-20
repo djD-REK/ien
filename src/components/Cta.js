@@ -26,7 +26,7 @@ export default class Cta extends React.Component {
                 {_.get(this.props, 'section.actions') && 
                     <ul className="actions special">
                         {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (
-                            <li key={action_idx}><Link to={(_.get(action, 'url').startsWith('#') ? _.get(action, 'url') : safePrefix(_.get(action, 'url')))} className={'button' + (_.get(action, 'is_primary') ? ' primary' : '') + (_.get(action, 'icon') ? ' icon ' + _.get(action, 'icon') : '') + (_.get(action, 'is_scrolly') ? ' scrolly' : '')}>{_.get(action, 'label')}</Link></li>
+                            <li key={action_idx}><Link to={(_.get(action, 'url').startsWith('#') ? _.get(action, 'url') : safePrefix(_.get(action, 'url')))} className={'button' + (_.get(action, 'is_primary') ? ' primary' : '') + (_.get(action, 'icon') ? ' icon ' + _.get(action, 'icon') : '') + (_.get(action, 'is_scrolly') ? ' scrolly' : '') + (_.get(action, 'color') ? (' '+_.get(action, 'color')) : '')}>{_.get(action, 'label')}</Link></li>
                         ))}
                     </ul>
                 }
