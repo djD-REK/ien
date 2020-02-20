@@ -22,7 +22,7 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  [//]: # path: "/images/abbreviated-logo-iran-map.png"
+  [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
   path: "/images/Iran%20Stock%20Markets.jpg"
   phone_border: false
 sections:
