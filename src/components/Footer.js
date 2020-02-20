@@ -12,8 +12,8 @@ export default class Footer extends React.Component {
           &nbsp;Download free samples of Iranian Economic News&nbsp;<span class="icon fa-download" style={{color: "inherit"}}></span>
           </h3>
         <ul className="actions special">
-          <li><a class="button icon fa-file-pdf-o iran_green" href="#" title="Economists Make Policy Recommendations in Open Letter to President">Sample 1</a></li>
-          <li><a class="button icon fa-file-pdf-o iran_red" href="#" title="Opposition Mounts against Reopening Commerce Ministry">Sample 2</a></li>
+          <li><a class="button icon fa-file-pdf-o" href="#" title="Economists Make Policy Recommendations in Open Letter to President">Sample 1</a></li>
+          <li><a class="button icon fa-file-pdf-o" href="#" title="Opposition Mounts against Reopening Commerce Ministry">Sample 2</a></li>
         </ul>
         </div>
         {_.get(this.props, "pageContext.site.data.footer.social_icons") && (
@@ -63,12 +63,13 @@ export default class Footer extends React.Component {
         )}
         <div className="image logo">
           <img
-            src="/images/abbreviated-logo-iran-map-extra-wide.png"
+            src="/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
             alt="Iranian Economic News logo"
           />
         </div>
         <p>©&nbsp;{new Date().getFullYear()}&nbsp;
-            {_.get(this.props, "pageContext.site.siteMetadata.title")}</p>
+            <a href="/">{_.get(this.props, "pageContext.site.siteMetadata.title")}</a>
+        </p>
       </footer>
     )
   }

@@ -20,6 +20,10 @@
 
 		a {
 			color: inherit;
+
+			&:hover {
+				color: #4696e5; // blue override
+			}
 		}
 
 		.copyright {

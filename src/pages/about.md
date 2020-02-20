@@ -46,7 +46,7 @@ sections:
       - label: Subscribe Free
         icon: fa-envelope
         url: "subscribe-free"
-        is_primary: true
+        is_primary: false
         is_scrolly: false
     background_style: style2
 template: home

@@ -6,7 +6,7 @@ header_actions:
   - label: About
     icon: fa-address-card
     url: "about"
-    is_primary: true
+    is_primary: false
     is_scrolly: false
     color: "iran_green"
   - label: Why Subscribe
@@ -18,7 +18,7 @@ header_actions:
   - label: Subscribe Free
     icon: fa-envelope
     url: "subscribe-free"
-    is_primary: true
+    is_primary: false
     is_scrolly: false
     color: "iran_red"
 header_image:
@@ -52,19 +52,19 @@ sections:
       - label: About
         icon: fa-address-card
         url: "about"
-        is_primary: false
+        is_primary: true
         is_scrolly: false
         color: "iran_green"
       - label: Why Subscribe
         icon: fa-question-circle
         url: "why-subscribe"
-        is_primary: true
+        is_primary: false
         is_scrolly: false
         color: "iran_white"
       - label: Subscribe Free
         icon: fa-envelope
         url: "subscribe-free"
-        is_primary: false
+        is_primary: true
         is_scrolly: false
         color: "iran_red"
 template: home
