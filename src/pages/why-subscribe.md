@@ -5,7 +5,7 @@ header_subtitle: "Get the latest information about the Iranian economy"
 header_actions:
   - label: About
     icon: fa-address-card
-    url: "about"
+    url: "/about"
     is_primary: false
     is_scrolly: false
     color: "iran_green"
@@ -17,13 +17,13 @@ header_actions:
     color: "iran_white"
   - label: Subscribe Free
     icon: fa-envelope
-    url: "subscribe-free"
+    url: "/subscribe-free"
     is_primary: false
     is_scrolly: false
     color: "iran_red"
 header_image:
   [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
-  path: "/images/Iran%20Stock%20Markets.jpg"
+  path: "/images/Imports, Exports, and International Partnerships photo.jpg"
   phone_border: false
 sections:
   - type: bodytext
@@ -52,29 +52,26 @@ sections:
   - type: cta
     template: cta
     background_style: style2
-    title: Iranian Economic News is a free email newsletter covering the Iranian Economy
+    title: ""
     section_id: call_to_action
     component: Cta
-    subtitle: |-
-      * Stay up-to-date on unfolding Iranian economic matters.
-      * Read accessible analyses of Farsi-language new sources.
-      * See how the Iranian economy reacts to domestic and foreign policy.
+    subtitle: ""
     actions:
       - label: About
         icon: fa-address-card
-        url: "about"
+        url: "/about"
         is_primary: true
         is_scrolly: false
         color: "iran_green"
-      - label: Why Subscribe
-        icon: fa-question-circle
-        url: "why-subscribe"
+      - label: Follow @IranianEconomy
+        icon: fa-twitter
+        url: "https://twitter.com/IranianEconomy"
         is_primary: false
         is_scrolly: false
         color: "iran_white"
       - label: Subscribe Free
         icon: fa-envelope
-        url: "subscribe-free"
+        url: "/subscribe-free"
         is_primary: true
         is_scrolly: false
         color: "iran_red"

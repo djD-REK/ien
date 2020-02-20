@@ -21,7 +21,6 @@ export default class Header extends React.Component {
                     <h1><Link to={(_.get(this.props, 'pageContext.frontmatter.header_title_url').startsWith('#') ? _.get(this.props, 'pageContext.frontmatter.header_title_url') : safePrefix(_.get(this.props, 'pageContext.frontmatter.header_title_url')))}>
                         {heading_title}
                         {heading_title ? <br /> : ""}
-                        <br />
                         <span className="iran_green">Iranian&nbsp;</span> 
                         <span className="iran_white">Economic</span> 
                         <span className="iran_red">&nbsp;News</span>

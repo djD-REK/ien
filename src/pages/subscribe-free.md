@@ -5,13 +5,13 @@ header_subtitle: "Just enter your email address in the form below"
 header_actions:
   - label: About
     icon: fa-address-card
-    url: "about"
+    url: "/about"
     is_primary: false
     is_scrolly: false
     color: "iran_green"
   - label: Why Subscribe
     icon: fa-question-circle
-    url: "why-subscribe"
+    url: "/why-subscribe"
     is_primary: false
     is_scrolly: false
     color: "iran_white"
@@ -23,7 +23,7 @@ header_actions:
     color: "iran_red"
 header_image:
   [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
-  path: "/images/Iran%20Stock%20Markets.jpg"
+  path: "/images/Energy%20and%20Mining%20photo.jpg"
   phone_border: false
 sections:
   - type: icons
@@ -55,13 +55,10 @@ sections:
         icon: fa-money
   - type: cta
     template: cta
-    title: Subscribe to Iranian Economic News for free
+    title: ""
     section_id: call_to_action
     component: Cta
-    subtitle: |-
-      * Stay up-to-date on unfolding Iranian economic matters.
-      * Read accessible analyses of Farsi-language new sources.
-      * See how the Iranian economy reacts to domestic and foreign policy.
+    subtitle: ""
     actions:
       - label: About
         icon: fa-address-card

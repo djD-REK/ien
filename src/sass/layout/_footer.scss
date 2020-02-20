@@ -29,6 +29,16 @@
 		.copyright {
 			font-size: 0.8em;
 		}
+
+		h3 {
+			font-size: 1.3em;
+			@include breakpoint('<=small') {
+				font-size: 1.2em;
+			}
+			@include breakpoint('<=xsmall') {
+				font-size: 1.1em;
+			}
+		}
 		
 		.samples {
 			border-radius: 3em;
@@ -50,6 +60,17 @@
 
 		.icons {
 			margin: 2.5em 0 0 0;
+
+			.label {
+				font-weight: bold;
+				font-size: 1.2em;
+				@include breakpoint('<=small') {
+					font-size: 1.1em;
+				}
+				@include breakpoint('<=xsmall') {
+					font-size: 1em;
+				}
+			}
 		}
 
 		// Medium.

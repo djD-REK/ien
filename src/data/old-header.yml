@@ -5,7 +5,7 @@ actions:
   - label: Subscribe
     icon: fa-envelope
     url: "#subscribe"
-    is_primary: true
+    is_primary: false
     is_scrolly: true
   - label: Learn More
     icon: fa-chevron-down

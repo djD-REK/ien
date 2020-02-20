@@ -29,8 +29,13 @@
     },
     "gray": {
       "sass": {
-        "color": "#DDDDDD"
+        "color": "#EEEEEE"
       }
-    }
+    },
+    "dark_gray": {
+      "sass": {
+        "color": "#888888"
+      }
+    }    
   }
 }

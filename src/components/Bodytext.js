@@ -31,23 +31,25 @@ export default class Bodytext extends React.Component {
             </li>
           ))}
         </ul>
+        <header className="major">
         {_.get(this.props, "section.paragraphs") &&
           _.map(
             _.get(this.props, "section.paragraphs"),
             (paragraph, paragraph_idx) => (
-              <section key={paragraph_idx} className="spotlight">
+                <div className={_.get(paragraph, "image") && "grid_wrapper"}>
                 {_.get(paragraph, "image") && (
-                  <div className="image">
-                    <img src={safePrefix(_.get(paragraph, "image"))} alt="" />
-                  </div>
+                  <div className="grid_image">
+                    <div className="image">
+                      <img src={safePrefix(_.get(paragraph, "image"))} alt="" />
+                    </div>
+                  </div>              
                 )}
-                <div className="content">
-                  <h3>{_.get(paragraph, "title")}</h3>
-                  {markdownify(_.get(paragraph, "text"))}
+                  <h3 className={_.get(paragraph, "image") && "grid_heading"}>{_.get(paragraph, "title")}</h3>
+                  <div className={_.get(paragraph, "image") && "grid_text"}>{markdownify(_.get(paragraph, "text"))}</div>
                 </div>
-              </section>
             )
           )}
+        </header>
       </section>
     )
   }

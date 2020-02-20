@@ -5,19 +5,19 @@ header_subtitle: "A free email newsletter about the Iranian economy"
 header_actions:
   - label: About
     icon: fa-address-card
-    url: "about"
+    url: "/about"
     is_primary: false
     is_scrolly: false
     color: "iran_green"
   - label: Why Subscribe
     icon: fa-question-circle
-    url: "why-subscribe"
+    url: "/why-subscribe"
     is_primary: false
     is_scrolly: false
     color: "iran_white"
   - label: Subscribe Free
     icon: fa-envelope
-    url: "subscribe-free"
+    url: "/subscribe-free"
     is_primary: false
     is_scrolly: false
     color: "iran_red"
@@ -48,22 +48,23 @@ sections:
       * Stay up-to-date on unfolding Iranian economic matters.
       * Read accessible analyses of Farsi-language new sources.
       * See how the Iranian economy reacts to domestic and foreign policy.
+    image: /images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg
     actions:
       - label: About
         icon: fa-address-card
-        url: "about"
+        url: "/about"
         is_primary: true
         is_scrolly: false
         color: "iran_green"
       - label: Why Subscribe
         icon: fa-question-circle
-        url: "why-subscribe"
+        url: "/why-subscribe"
         is_primary: false
         is_scrolly: false
         color: "iran_white"
       - label: Subscribe Free
         icon: fa-envelope
-        url: "subscribe-free"
+        url: "/subscribe-free"
         is_primary: true
         is_scrolly: false
         color: "iran_red"
