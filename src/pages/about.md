@@ -1,10 +1,10 @@
 ---
-title: "About the free newsletter"
+title: "About"
 header_title_url: "#"
-header_subtitle: "A free email newsletter about the Iranian economy"
+header_subtitle: "Receive exclusive news coverage in your email inbox"
 header_actions:
   - label: Learn more
-    icon: fa-address-card
+    icon: fa-chevron-down
     url: "#learn_more"
     is_primary: false
     is_scrolly: false

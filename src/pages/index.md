@@ -48,7 +48,6 @@ sections:
       * Stay up-to-date on unfolding Iranian economic matters.
       * Read accessible analyses of Farsi-language new sources.
       * See how the Iranian economy reacts to domestic and foreign policy.
-    image: /images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg
     actions:
       - label: About
         icon: fa-address-card

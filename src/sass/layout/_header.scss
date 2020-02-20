@@ -94,9 +94,9 @@
 				.content {
 					margin: (_size(element-margin) * -1) (_size(element-margin) * 2) 0 0;
 
-					/* .actions {
+					.actions {
 						@include vendor('justify-content', 'center');
-					} */
+					}
 				}
 
 				// Portrait.

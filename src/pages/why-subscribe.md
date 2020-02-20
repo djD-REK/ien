@@ -23,7 +23,7 @@ header_actions:
     color: "iran_red"
 header_image:
   [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
-  path: "/images/Imports, Exports, and International Partnerships photo.jpg"
+  path: "/images/Energy%20and%20Mining%20photo.jpg"
   phone_border: false
 sections:
   - type: bodytext
