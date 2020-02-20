@@ -33,11 +33,11 @@ sections:
     component: Cta
     subtitle: |-
       Steven Terner is a multi-lingual American scholar and researcher who has spent more than a decade specializing in socio-political and economic analysis of the Middle East and Central/West Asia, with a focus on Iran. His intent is to serve as a cultural liaison, guiding international business in expanding global markets.
-    image: "/images/StevenTernerPhoto.jpg"
+    image: "/images/StevenTernerPhoto-cropped.jpg"
   - type: cta
     template: cta
     background_style: style2
-    title: What are Mr. Terner's credentials?
+    title: Why does Steven Terner write Iranian Economic News?
     section_id: call_to_action
     component: Cta
     subtitle: |-
