@@ -1,33 +1,72 @@
 ---
 title: Home
+header_title_url: "#"
+header_subtitle: "A free email newsletter about the Iranian economy"
+header_actions:
+  - label: About
+    icon: fa-address-card
+    url: "about"
+    is_primary: false
+    is_scrolly: false
+    color: "iran_green"
+  - label: Why Subscribe
+    icon: fa-question-circle
+    url: "why-subscribe"
+    is_primary: false
+    is_scrolly: false
+    color: "iran_white"
+  - label: Subscribe Free
+    icon: fa-envelope
+    url: "subscribe-free"
+    is_primary: false
+    is_scrolly: false
+    color: "iran_red"
+header_image:
+  [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
+  path: "/images/Iran%20Stock%20Markets.jpg"
+  phone_border: false
 sections:
-  - type: icons
-    template: icons
-    title: Subscribe for the latest economic news from Iran.
-    section_id: subscribe
-    component: Icons
+  - type: cta
+    template: cta
+    title: What is the state of the Iranian economy? 
+    section_id: call_to_action
+    component: Cta
+    subtitle: |-
+      Iranian Economic News examines Iranian sources and perspectives to understand issues and identify opportunities.
+
+      Subscribe to receive detailed updates and analyses on Iranian efforts to tackle international sanctions, political corruption, and mismanagement.
+      
+      Understand how Iran's embattled society is leading its government in efforts to develop what could become one of the world’s most efficient exporters of energy, technology, petrochemicals, pharmaceuticals, agricultural products, and more.
+    image: /images/Iran%20Currency.jpg
+  - type: cta
+    template: cta
     background_style: style2
-    icons:
-      - title: Briefcase
-        icon: fa-briefcase
-      - title: Flag
-        icon: fa-flag
-      - title: Road
-        icon: fa-road
-      - title: Bar Chart
-        icon: fa-bar-chart
-      - title: Globe
-        icon: fa-globe
-      - icon: fa-list-alt
-        title: List (Alt)
-      - title: Pie Chart
-        icon: fa-pie-chart
-      - icon: fa-building
-        title: Building
-      - icon: fa-line-chart
-        title: Line Chart
-      - title: Money
-        icon: fa-money
+    title: Iranian Economic News is a free email newsletter covering the Iranian Economy
+    section_id: call_to_action
+    component: Cta
+    subtitle: |-
+      * Stay up-to-date on unfolding Iranian economic matters.
+      * Read accessible analyses of Farsi-language new sources.
+      * See how the Iranian economy reacts to domestic and foreign policy.
+    actions:
+      - label: About
+        icon: fa-address-card
+        url: "about"
+        is_primary: true
+        is_scrolly: false
+        color: "iran_green"
+      - label: Why Subscribe
+        icon: fa-question-circle
+        url: "why-subscribe"
+        is_primary: false
+        is_scrolly: false
+        color: "iran_white"
+      - label: Subscribe Free
+        icon: fa-envelope
+        url: "subscribe-free"
+        is_primary: true
+        is_scrolly: false
+        color: "iran_red"
   - type: bodytext
     template: bodytext
     section_id: why_subscribe
@@ -40,53 +79,5 @@ sections:
       - title: "For companies and corporations:"
         text: "The Iranian population is one of the world's largest but its economy is only moderately-developed. In addition to its established energy and agricultural sectors, as well as its budding financial and technology sectors, these circumstances offer unique and lucrative foreign investment opportunities. Although geopolitical tensions, sanctions, and Iran's own complex political and economic circumstances presently stand in the way, international business entities are eager to identify opportunities and prepare their positions to enter the Iranian market in the near term. It is for that reason that this newsletter tracks, reports, and analyses Iran's efforts to develop its market for foreign investment."
         image: "/images/Banking, Currency, Policy photo.jpg"
-    icons:
-      - title: Free email subscription
-        icon: fa-envelope
-      - title: For companies & corporations
-        icon: fa-briefcase
-      - title: For institutions & governments
-        icon: fa-university
-      - title: Exclusive news coverage
-        icon: fa-commenting
-      - title: Iranian Economic News
-        icon: fa-globe
-  - type: cta
-    template: cta
-    title: Subscribe to Iranian Economic News
-    section_id: call_to_action
-    component: Cta
-    subtitle: |-
-      Subscribe to receive detailed updates and analyses on Iranian efforts to tackle international sanctions, political corruption, and mismanagement. Understand how its embattled society is leading its government in efforts to develop what could become one of the world’s most efficient exporters of energy, technology, petrochemicals, pharmaceuticals, agricultural products, and more.
-      * Stay up-to-date on unfolding Iranian economic matters.
-      * Read accessible analyses of Farsi-language new sources.
-      * See how the Iranian economy reacts to domestic and foreign policy.
-    background_style: style2
-    actions:
-      - label: About
-        icon: fa-address-card
-        url: "about"
-        is_primary: false
-        is_scrolly: false
-      - label: Why Subscribe
-        icon: fa-question-circle
-        url: "why-subscribe"
-        is_primary: false
-        is_scrolly: false
-      - label: Subscribe Free
-        icon: fa-envelope
-        url: "subscribe-free"
-        is_primary: true
-        is_scrolly: false
-  - type: cta
-    template: cta
-    title: About the author
-    section_id: about
-    component: Cta
-    subtitle: |-
-      Steven Terner is a multi-lingual American scholar and researcher who has spent more than a decade specializing in socio-political and economic analysis of the Middle East and Central/West Asia, with a focus on Iran. His intent is to serve as a cultural liaison, guiding international business in expanding global markets.
-
-      Mr. Terner spent six years living, studying, and working in the Middle East. His professional experience includes the Jerusalem Post, the Indian Embassy in Israel, and the Atlantic Council and Hudson Institute think tanks in Washington, DC. He holds an MA in Middle East Studies, an MA in Government, and is completing a PhD in Middle East History.
-    background_style: style2
 template: home
 ---
