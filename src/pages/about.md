@@ -1,7 +1,7 @@
 ---
 title: "About"
 header_title_url: "#"
-header_subtitle: "Receive exclusive news coverage in your email inbox"
+header_subtitle: "Receive exclusive news coverage in your email"
 header_actions:
   - label: Learn more
     icon: fa-chevron-down
@@ -33,15 +33,9 @@ sections:
     component: Cta
     subtitle: |-
       Steven Terner is a multi-lingual American scholar and researcher who has spent more than a decade specializing in socio-political and economic analysis of the Middle East and Central/West Asia, with a focus on Iran. His intent is to serve as a cultural liaison, guiding international business in expanding global markets.
-    image: "/images/StevenTernerPhoto-cropped.jpg"
-  - type: cta
-    template: cta
-    background_style: style2
-    title: Why does Steven Terner write Iranian Economic News?
-    section_id: call_to_action
-    component: Cta
-    subtitle: |-
+
       Mr. Terner spent six years living, studying, and working in the Middle East. His professional experience includes the Jerusalem Post, the Indian Embassy in Israel, and the Atlantic Council and Hudson Institute think tanks in Washington, DC. He holds an MA in Middle East Studies, an MA in Government, and is completing a PhD in Middle East History.
+    image: "/images/StevenTernerPhoto-cropped.jpg"
     actions:
       - label: Follow @IranianEconomy
         icon: fa-twitter
