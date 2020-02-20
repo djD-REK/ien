@@ -22,6 +22,15 @@ export default class Bodytext extends React.Component {
           </h2>
           {markdownify(_.get(this.props, "section.subtitle"))}
         </header>
+        <ul className="icons major">
+          {_.map(_.get(this.props, "section.icons"), (item, item_idx) => (
+            <li key={item_idx}>
+              <span className={"icon " + _.get(item, "icon")}>
+                <span className="label">&nbsp;{_.get(item, "title")}</span>
+              </span>
+            </li>
+          ))}
+        </ul>
         {_.get(this.props, "section.paragraphs") &&
           _.map(
             _.get(this.props, "section.paragraphs"),

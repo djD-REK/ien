@@ -6,20 +6,22 @@ import {Link, safePrefix, markdownify, classNames} from '../utils';
 export default class Header extends React.Component {
     
     render() {
-        const site_title = _.get(this.props, 'pageContext.site.siteMetadata.title')
+        // const site_title = _.get(this.props, 'pageContext.site.siteMetadata.title')
         const page_markdown_title = _.get(this.props, 'pageContext.frontmatter.title')
         let heading_title = "Hi"
         if(page_markdown_title === "Home") {
             heading_title = ""
         }
         else {
-            heading_title = page_markdown_title && page_markdown_title + '&nbsp;'
+            heading_title = page_markdown_title && page_markdown_title + ' '
         }
         return (
             <header id="header">
                 <div className="content">
                     <h1><Link to={(_.get(this.props, 'pageContext.frontmatter.header_title_url').startsWith('#') ? _.get(this.props, 'pageContext.frontmatter.header_title_url') : safePrefix(_.get(this.props, 'pageContext.frontmatter.header_title_url')))}>
                         {heading_title}
+                        {heading_title ? <br /> : ""}
+                        <br />
                         <span className="iran_green">Iranian&nbsp;</span> 
                         <span className="iran_white">Economic</span> 
                         <span className="iran_red">&nbsp;News</span>

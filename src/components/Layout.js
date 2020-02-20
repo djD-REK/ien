@@ -15,7 +15,7 @@ export default class Body extends React.Component {
             page_title =  site_title + ' - ' + _.get(this.props, 'pageContext.frontmatter.header_subtitle')
         }
         else {
-            page_title = page_markdown_title && page_markdown_title + ' - ' + site_title
+            page_title = page_markdown_title && page_markdown_title + site_title
         }        
         return (
             <React.Fragment>
