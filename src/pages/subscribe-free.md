@@ -28,7 +28,7 @@ sections:
   - type: icons
     template: icons
     title: Subscribe for the latest economic news from Iran.
-    section_id: subscribe
+    section_id: icons
     component: Icons
     background_style: style2
     icons:
@@ -52,6 +52,11 @@ sections:
         icon: fa-line-chart
       - title: ""
         icon: fa-money
+  - type: signupForm
+    template: signupForm
+    title: ""
+    section_id: subscribe
+    component: SignupForm
   - type: cta
     template: cta
     title: ""

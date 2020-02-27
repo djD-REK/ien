@@ -22,7 +22,6 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  [//]: # path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
   path: "/images/Energy%20and%20Mining%20photo.jpg"
   phone_border: false
 sections:

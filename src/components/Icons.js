@@ -5,12 +5,14 @@ import { htmlToReact } from "../utils"
 
 export default class Icons extends React.Component {
   render() {
+    let background_style = _.get(this.props, 'section.background_style')
+    background_style = background_style === undefined ? "" : background_style + ' '
     return (
       <section
         id={_.get(this.props, "section.section_id")}
         className={
           "wrapper " +
-          _.get(this.props, "section.background_style") +
+          background_style +
           " special"
         }
       >
@@ -30,42 +32,6 @@ export default class Icons extends React.Component {
             )}
           </h2>
         </header>
-
-        <form
-          style={{
-            margin: "auto"
-          }}
-          action={"https://tinyletter.com/IranianEconomicNews"}
-          method={"post"}
-          target={"popupwindow"}
-          onsubmit={
-            "window.open('https://tinyletter.com/IranianEconomicNews', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-          }
-        >
-          <label for="tlemail">Enter your email address</label>
-
-          <input
-            type="text"
-            style={{
-              width: "30%",
-              minWidth: "300px",
-              margin: "auto"
-            }}
-            name="email"
-            id="tlemail"
-          />
-          <input type="hidden" value="1" name="embed" />
-          <br />
-          <input type="submit" value="Subscribe" />
-          <br />
-          <a
-            href="https://tinyletter.com"
-            target="_blank"
-            style={{ fontStyle: "italic", fontSize: ".8em" }}
-          >
-            powered by TinyLetter
-          </a>
-        </form>
       </section>
     )
   }

@@ -5,12 +5,14 @@ import { htmlToReact, markdownify, safePrefix } from "../utils"
 
 export default class Bodytext extends React.Component {
   render() {
+    let background_style = _.get(this.props, 'section.background_style')
+    background_style = background_style === undefined ? "" : background_style + ' '
     return (
       <section
         id={_.get(this.props, "section.section_id")}
         className={
           "wrapper " +
-          _.get(this.props, "section.background_style") +
+          background_style +
           " special"
         }
       >

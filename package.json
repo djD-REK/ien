@@ -1,7 +1,7 @@
 {
-  "name": "ien",
-  "description": "Fractal",
-  "version": "0.0.1",
+  "name": "IEN",
+  "description": "Iranian Economic News, based on a modified version of the Fractal theme",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
