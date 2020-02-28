@@ -31,142 +31,160 @@ sections:
     section_id: call_to_action
     component: Cta
     subtitle: |-
-      Sample: Iranian Economic News Privacy Policy
+      [Iranian Economic News](/) is an independent organization run by [Steven Terner](/about).
 
-      Iranian Economic News is part of the Iranian Economic News Group which includes Iranian Economic News International and Iranian Economic News Direct. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website.
+      This privacy policy will explain how our organization uses the personal data we collect from you when you use our website.
 
-      Topics:
-          What data do we collect?
-          How do we collect your data?
-          How will we use your data?
-          How do we store your data?
-          Marketing
-          What are your data protection rights?
-          What are cookies?
-          How do we use cookies?
-          What types of cookies do we use?
-          How to manage your cookies
-          Privacy policies of other websites
-          Changes to our privacy policy
-          How to contact us
-          How to contact the appropriate authorities
+      **Topics:**
+          `What data do we collect?`
+          `How do we collect your data?`
+          `How will we use your data?`
+          `How do we store your data?`
+          `Marketing`
+          `What are your data protection rights?`
+          `How do we use cookies?`
+          `Privacy policies of other websites`
+          `Changes to our privacy policy`
+          `How to contact us`
+          `How to contact the appropriate authorities`
 
-      What data do we collect?
+      ***
+      **What data do we collect?**
 
-      Iranian Economic News collects the following data:
+      *Iranian Economic News collects the following data:*
 
-          Personal identification information (Name, email address, phone number, etc.)
-          [Add any other data yIranian Economic News collects]
+          Personal identification information:
+          - Name
+          - Email address
+          - Company
+          - Role
 
-      How do we collect your data?
+      ***
+      **How do we collect your data?**
 
-      You directly provide Iranian Economic News with most of the data we collect. We collect data and process data when you:
+      *You directly provide Iranian Economic News with all of the data we collect.*
 
-          Register online or place an order for any of our products or services.
-          Voluntarily complete a customer survey or provide feedback on any of our message boards or via email.
-          Use or view our website via your browser’s cookies.
-          [Add any other ways yIranian Economic News collects data]
+      *We collect data and process data when you:*
 
-      Iranian Economic News may also receive your data indirectly from the following sources:
+          - Voluntarily signup for our email newsletter via our website
 
-          [Add any indirect source of data yIranian Economic News has]
+      *Iranian Economic News does not receive your data indirectly from any source.*
 
-      How will we use your data?
+      ***
+      **How will we use your data?**
 
-      Iranian Economic News collects your data so that we can:
+      *Iranian Economic News collects your data so that we can:*
 
-          Process your order and manage your account.
-          Email you with special offers on other products and services we think you might like.
-          [Add how else yIranian Economic News uses data]
+          - Email you our free newsletter (in all cases)
+          - Pitch your company a consulting proposal (in some cases)
+          - Reach out to you for professional reasons if you are a scholar or official (in some cases)
 
-      If you agree, Iranian Economic News will share your data with our partner companies so that they may offer you their products and services.
+      *The newsletter is free so that we might contact you about consulting services or for other professional reasons, as outlined above.*
 
-          [List organizations that will receive data]
+      *Iranian Economic News does not share your data with any other companies or parties.*
 
-      When Iranian Economic News processes your order, it may send your data to, and also use the resulting information from, credit reference agencies to prevent fraudulent purchases.
-      How do we store your data?
+      ***
+      **How do we store your data?**
 
-      Iranian Economic News securely stores your data at [enter the location and describe security precautions taken].
+      *Iranian Economic News securely stores your data at [MailerLite](https://mailerlite.com), our email subscription service.*
 
-      Iranian Economic News will keep your [enter type of data] for [enter time period]. Once this time period has expired, we will delete your data by [enter how you delete users’ data].
-      Marketing
+      *MailerLite's [Terms of Service](https://www.mailerlite.com/legal) and [Security Statement](https://www.mailerlite.com/legal/security-statement) are available online.*
 
-      Iranian Economic News would like to send you information about products and services of ours that we think you might like, as well as those of our partner companies.
+      *Iranian Economic News will keep your personal information until you unsubscribe or the organization ceases operation.*
 
-          [List organizations that will receive data]
+      *When you unsubscribe, or upon closure of the organization, we will delete your data inside MailerLite.*
 
-      If you have agreed to receive marketing, you may always opt out at a later date.
+      ***
+      **Marketing**
 
-      You have the right at any time to stop Iranian Economic News from contacting you for marketing purposes or giving your data to other members of the Iranian Economic News Group.
+      *As stated above, subscription to our free email newsletter implies consent to the possibility of receiving marketing emails.*
 
-      If you no longer wish to be contacted for marketing purposes, please click here.
-      What are your data protection rights?
+      *Marketing may be regarding consulting proposals or for other professional reasons.*
 
-      Iranian Economic News would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+      *These emails may be sent via Iranian Economic News or directly from Steven Terner.*
 
-      The right to access – You have the right to request Iranian Economic News for copies of your personal data. We may charge you a small fee for this service.
+      *To remove this consent for marketing, you can unsubscribe from the newsletter at anytime.*
 
-      The right to rectification – You have the right to request that Iranian Economic News correct any information you believe is inaccurate. You also have the right to request Iranian Economic News to complete the information you believe is incomplete.
+      ***
+      **What are your data protection rights?**
 
-      The right to erasure – You have the right to request that Iranian Economic News erase your personal data, under certain conditions.
+      *Iranian Economic News would like to make sure you are fully aware of all of your data protection rights.*
 
-      The right to restrict processing – You have the right to request that Iranian Economic News restrict the processing of your personal data, under certain conditions.
+      *Every user is entitled to the following:*
 
-      The right to object to processing – You have the right to object to Iranian Economic News’s processing of your personal data, under certain conditions.
+          - The right to access:
+          You have the right to request Iranian Economic News for copies of your personal data.
+          We may charge you a small fee for this service.
 
-      The right to data portability – You have the right to request that Iranian Economic News transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+          - The right to rectification:
+          You have the right to request that Iranian Economic News correct any information you believe is inaccurate.
+          You also have the right to request Iranian Economic News to complete the information you believe is incomplete.
 
-      If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at our email:
+          - The right to erasure:
+          You have the right to request that Iranian Economic News erase your personal data, under certain conditions.
 
-      Call us at:
+          - The right to restrict processing:
+          You have the right to request that Iranian Economic News restrict the processing of your personal data, under certain conditions.
 
-      Or write to us:
-      Cookies
+          - The right to object to processing:
+          You have the right to object to Iranian Economic News’s processing of your personal data, under certain conditions.
 
-      Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our websites, we may collect information from you automatically through cookies or similar technology
+          - The right to data portability:
+          You have the right to request that Iranian Economic News transfer the data that we have collected, under certain conditions.
+          The data can be transferred to another organization, or directly to you.
 
-      For further information, visit allaboutcookies.org.
-      How do we use cookies?
+          - The right to timely response:
+          If you make a request, we have one month to respond to you.
+          If you would like to exercise any of these rights, please contact us.
+          Our contact information is listed below under "How to contact us."
 
-      Iranian Economic News uses cookies in a range of ways to improve your experience on our website, including:
+      ***
+      **How do we use cookies?**
 
-          Keeping you signed in
-          Understanding how you use our website
-          [Add any uses yIranian Economic News has for cookies]
+      *Iranian Economic News does not use cookies (text files placed on your computer to collect visitor behavior information).*
 
-      What types of cookies do we use?
+      ***
+      **Privacy policies of other websites**
 
-      There are a number of different types of cookies, however, our website uses:
+      *The Iranian Economic News website contains links to other websites, such as [Twitter](https://twitter.com/iranianeconomy).*
 
-          Functionality – Iranian Economic News uses these cookies so that we recognize you on our website and remember your previously selected preferences. These could include what language you prefer and location you are in. A mix of first-party and third-party cookies are used.
-          Advertising – Iranian Economic News uses these cookies to collect information about your visit to our website, the content you viewed, the links you followed and information about your browser, device, and your IP address. Iranian Economic News sometimes shares some limited aspects of this data with third parties for advertising purposes. We may also share online data collected through cookies with our advertising partners. This means that when you visit another website, you may be shown advertising based on your browsing patterns on our website.
-          [Add any other types of cookies yIranian Economic News uses]
+      *Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.*
 
-      How to manage cookies
+      ***
+      **Changes to our privacy policy**
 
-      You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.
-      Privacy policies of other websites
+      *Iranian Economic News keeps its privacy policy under regular review and places any updates on this web page.*
 
-      The Iranian Economic News website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
-      Changes to our privacy policy
+      *This privacy policy was last updated on 28 February 2020.*
 
-      Iranian Economic News keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 9 January 2019.
-      How to contact us
+      ***
+      **How to contact us**
 
-      If you have any questions about Iranian Economic News’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
+      *If you have any questions about Iranian Economic News’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.*
 
-      Email us at:
+      **Email us**: [admin@iranianeconomicnews.com](mailto:admin@iranianeconomicnews.com)
 
-      Call us:
+      **Call us**: +1 (804) 938-8575
 
-      Or write to us at:
-      How to contact the appropriate authority
+      **Write to us**: Iranian Economic News 40 3rd Street, Apartment 1 Brooklyn, NY 11231
 
-      Should you wish to report a complaint or if you feel that Iranian Economic News has not addressed your concern in a satisfactory manner, you may contact the Information Commissioner’s Office.
+      ***
+      **How to contact the appropriate authority**
 
-      Email:
+      *Should you wish to report a complaint or if you feel that Iranian Economic News has not addressed your concern in a satisfactory manner, you may contact the US Federal Trade Commission (FTC).*
 
-      Address
+      **Email**: See the FTC's website at [https://www.ftccomplaintassistant.gov/](https://www.ftccomplaintassistant.gov/) or [https://www.ftc.gov/contact](https://www.ftc.gov/contact)
+
+      **Call**: +1 (877) FTC-HELP (+1-877-382-4357) or +1 (202) 326-2222
+
+      **Address**: Federal Trade Commission 600 Pennsylvania Avenue, NW Washington, DC 20580
+
+      ***
+      **Credits**
+
+      *This privacy policy was based on the template available at [GPDR.eu](https://gdpr.eu/privacy-notice/)*.
+
+      *Thank you for your time and interest in subscribing to Iranian Economic News!*
     actions:
       - label: About
         icon: fa-address-card
