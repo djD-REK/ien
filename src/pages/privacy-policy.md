@@ -75,11 +75,8 @@ sections:
 
       *Iranian Economic News collects your data so that we can:*
 
-          - Email you our free newsletter (in all cases)
-          - Pitch your company a consulting proposal (in some cases)
-          - Reach out to you for professional reasons if you are a scholar or official (in some cases)
-
-      *The newsletter is free so that we might contact you about consulting services or for other professional reasons, as outlined above.*
+          - Can email you our free newsletter
+          - May contact you with other products, services, or opportunities
 
       *Iranian Economic News does not share your data with any other companies or parties.*
 
@@ -99,7 +96,7 @@ sections:
 
       *As stated above, subscription to our free email newsletter implies consent to the possibility of receiving marketing emails.*
 
-      *Marketing may be regarding consulting proposals or for other professional reasons.*
+      *Marketing may be regarding other products, services, or opportunities.*
 
       *These emails may be sent via Iranian Economic News or directly from Steven Terner.*
 
@@ -164,9 +161,9 @@ sections:
 
       **Email us**: [admin@iranianeconomicnews.com](mailto:admin@iranianeconomicnews.com)
 
-      **Call us**: +1 (804) 938-8575
+      **Call us**: +1 (917) 426-2861
 
-      **Write to us**: Iranian Economic News 40 3rd Street, Apartment 1 Brooklyn, NY 11231
+      **Write to us**: Iranian Economic News 534 3rd Avenue, Suite 1104 Brooklyn, NY 11215
 
       ***
       **How to contact the appropriate authority**
