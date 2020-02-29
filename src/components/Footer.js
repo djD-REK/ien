@@ -8,28 +8,52 @@ export default class Footer extends React.Component {
     return (
       <footer id="footer">
         <div class="wrapper samples">
-        <h3 class="icon fa-download">
-          &nbsp;Download free samples of Iranian Economic News&nbsp;<span class="icon fa-download" style={{color: "inherit"}}></span>
+          <h3 class="icon fa-download">
+            &nbsp;Download free samples of Iranian Economic News&nbsp;
+            <span class="icon fa-download" style={{ color: "inherit" }}></span>
           </h3>
-        <ul className="actions special">
-          <li><a class="button icon fa-file-pdf-o" href="#" title="Economists Make Policy Recommendations in Open Letter to President">Sample 1</a></li>
-          <li><a class="button icon fa-file-pdf-o" href="#" title="Opposition Mounts against Reopening Commerce Ministry">Sample 2</a></li>
-        </ul>
+          <ul className="actions special">
+            <li>
+              <a
+                class="button icon fa-file-pdf-o"
+                href="#"
+                title="Economists Make Policy Recommendations in Open Letter to President"
+              >
+                Sample 1
+              </a>
+            </li>
+            <li>
+              <a
+                class="button icon fa-file-pdf-o"
+                href="#"
+                title="Opposition Mounts against Reopening Commerce Ministry"
+              >
+                Sample 2
+              </a>
+            </li>
+          </ul>
         </div>
         {_.get(this.props, "pageContext.site.data.footer.social_icons") && (
           <ul className="icons">
             {_.map(
               _.get(this.props, "pageContext.site.data.footer.social_icons"),
               (item, item_idx) => (
-                <li key={item_idx}><h4>
-                  <Link
-                    to={_.get(item, "url")}
-                    className={"icon " + _.get(item, "icon")}
-                  >
-                    <span className="label">&nbsp;{_.get(item, "title")}&nbsp;</span>
-                    <span className={"icon " + _.get(item, "icon")} style={{color: "inherit"}}></span>
-                  </Link>
-                </h4></li>
+                <li key={item_idx}>
+                  <h4>
+                    <Link
+                      to={_.get(item, "url")}
+                      className={"icon " + _.get(item, "icon")}
+                    >
+                      <span className="label">
+                        &nbsp;{_.get(item, "title")}&nbsp;
+                      </span>
+                      <span
+                        className={"icon " + _.get(item, "icon")}
+                        style={{ color: "inherit" }}
+                      ></span>
+                    </Link>
+                  </h4>
+                </li>
               )
             )}
           </ul>
@@ -62,13 +86,13 @@ export default class Footer extends React.Component {
           </p>
         )}
         <div className="image logo">
-          <img
-            src="/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
-            alt="Iranian Economic News logo"
-          />
+          <img src="/images/IEN-logo.png" alt="Iranian Economic News logo" />
         </div>
-        <p>©&nbsp;{new Date().getFullYear()}&nbsp;
-            <a href="/">{_.get(this.props, "pageContext.site.siteMetadata.title")}</a>
+        <p>
+          ©&nbsp;{new Date().getFullYear()}&nbsp;
+          <a href="/">
+            {_.get(this.props, "pageContext.site.siteMetadata.title")}
+          </a>
         </p>
       </footer>
     )

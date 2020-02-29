@@ -22,7 +22,7 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  path: "/images/Energy%20and%20Mining%20photo.jpg"
+  path: "/images/EnergyandMiningphoto.jpg"
   phone_border: false
 sections:
   - type: bodytext

@@ -22,7 +22,7 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  path: "/images/Iran%20Stock%20Markets.jpg"
+  path: "/images/IranStockMarkets.jpg"
   phone_border: false
 sections:
   - type: cta
@@ -36,7 +36,7 @@ sections:
       Subscribe to receive detailed updates and analyses on Iranian efforts to tackle international sanctions, political corruption, and mismanagement.
 
       Understand how Iran's embattled society is leading its government in efforts to develop what could become one of the world’s most efficient exporters of energy, technology, petrochemicals, pharmaceuticals, agricultural products, and more.
-    image: /images/Iran%20Currency.jpg
+    image: /images/IranCurrency.jpg
   - type: cta
     template: cta
     background_style: style2

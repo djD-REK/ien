@@ -22,7 +22,7 @@ header_actions:
     is_scrolly: true
     color: "iran_red"
 header_image:
-  path: "/images/abbreviated-logo-iran-map-flag-background-no-emblem.png"
+  path: "/images/IEN-logo.png"
   phone_border: false
 sections:
   - type: icons

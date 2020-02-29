@@ -22,7 +22,7 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  path: "/images/Medicine,%20Science,%20and%20Technology photo.jpg"
+  path: "/images/Medicine,Science,andTechnology photo.jpg"
   phone_border: false
 sections:
   - type: cta
