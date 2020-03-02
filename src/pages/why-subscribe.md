@@ -33,10 +33,10 @@ sections:
     paragraphs:
       - title: "For governmental institutions and think tanks:"
         text: "On August 27, 2019, Esfandyar Batmanghelidj at the Atlantic Council issued a [report](https://twitter.com/EconomicIranian/status/1174722414938382336) decrying the dearth of understanding of the Iranian economy among European and North American policymakers. He argued that one of the primary results of the international sanctions regime has been to show just how little we understand and are able to anticipate the way the Iranian economy impacts its governmental policies. By tracing and analyzing politico-economic developments in Iran, this newsletter offers timely insight into efforts by Iranian businesses, officials, and international partners to stabilize and expand its economic system."
-        image: "/images/Agriculture, Manufacturing, and Textiles photo.jpg"
+        image: "/images/Agriculture,Manufacturing,andTextilesphoto.jpg"
       - title: "For companies and corporations:"
         text: "The Iranian population is one of the world's largest but its economy is only moderately-developed. In addition to its established energy and agricultural sectors, as well as its budding financial and technology sectors, these circumstances offer unique and lucrative foreign investment opportunities. Although geopolitical tensions, sanctions, and Iran's own complex political and economic circumstances presently stand in the way, international business entities are eager to identify opportunities and prepare their positions to enter the Iranian market in the near term. It is for that reason that this newsletter tracks, reports, and analyses Iran's efforts to develop its market for foreign investment."
-        image: "/images/Banking, Currency, Policy photo.jpg"
+        image: "/images/Banking,Currency,Policyphoto.jpg"
     icons:
       - title: Free email subscription
         icon: fa-envelope

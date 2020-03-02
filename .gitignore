@@ -59,6 +59,7 @@ typings/
 # public
 public/assets
 public/static
+public/images
 
 # Mac files
 .DS_Store
@@ -69,19 +70,3 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-public/images/abbreviated-logo-iran-map-extra-wide.png
-public/images/abbreviated-logo-iran-map.png
-public/images/Agriculture, Manufacturing, and Textiles photo.jpg
-public/images/Banking, Currency, Policy photo.jpg
-public/images/behzad-ghaffarian-agGyKOiowuk-unsplash.jpg
-public/images/Energy and Mining photo.jpg
-public/images/Imports, Exports, and International Partnerships photo.jpg
-public/images/Iran Currency.jpg
-public/images/Iran Stock Markets.jpg
-public/images/Iran Tehran traffic.jpg
-public/images/Medicine, Science, and Technology photo.jpg
-public/images/mohammadhosein-mohebbi-L7kUjDr1EC4-unsplash.jpg
-public/images/omid-armin-jwjGCvxjDlo-unsplash.jpg
-public/images/omid-armin-kAjXxQ-wQu4-unsplash.jpg
-public/images/tall-iranian-flag-by-mostafa-meraji.png
-public/images/wei-pan-eBE3pEIZjbc-unsplash.jpg
