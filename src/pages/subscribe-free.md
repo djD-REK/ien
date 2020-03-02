@@ -76,9 +76,9 @@ sections:
         is_primary: false
         is_scrolly: false
         color: "iran_white"
-      - label: Follow @IranianEconomy
-        icon: fa-twitter
-        url: "https://twitter.com/IranianEconomy"
+      - label: Subscribe Free
+        icon: fa-envelope
+        url: "/subscribe-free"
         is_primary: true
         is_scrolly: false
         color: "iran_red"

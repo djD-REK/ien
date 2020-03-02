@@ -62,9 +62,9 @@ sections:
         is_primary: true
         is_scrolly: false
         color: "iran_green"
-      - label: Follow @IranianEconomy
-        icon: fa-twitter
-        url: "https://twitter.com/IranianEconomy"
+      - label: Why Subscribe
+        icon: fa-question-circle
+        url: "/why-subscribe"
         is_primary: false
         is_scrolly: false
         color: "iran_white"

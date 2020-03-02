@@ -36,9 +36,9 @@ sections:
       Mr. Terner spent six years living, studying, and working in the Middle East. His professional experience includes the Jerusalem Post, the Indian Embassy in Israel, and the Atlantic Council and Hudson Institute think tanks in Washington, DC. He holds an MA in Middle East Studies, an MA in Government, and is completing a PhD in Middle East History.
     image: "/images/StevenTernerPhoto2-cropped.jpg"
     actions:
-      - label: Follow @IranianEconomy
-        icon: fa-twitter
-        url: "https://twitter.com/iranianeconomy"
+      - label: About
+        icon: fa-address-card
+        url: "/about"
         is_primary: true
         is_scrolly: false
         color: "iran_green"
