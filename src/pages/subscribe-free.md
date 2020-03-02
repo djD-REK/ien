@@ -17,7 +17,7 @@ header_actions:
     color: "iran_white"
   - label: Subscribe Below
     icon: fa-chevron-down
-    url: "#subscribe_anchor"
+    url: "#subscribe_below"
     is_primary: false
     is_scrolly: true
     color: "iran_red"
@@ -55,7 +55,7 @@ sections:
   - type: signupForm
     template: signupForm
     title: ""
-    section_id: subscribe
+    section_id: subscribe_below
     component: SignupForm
   - type: cta
     template: cta

@@ -7,7 +7,7 @@ header_actions:
     icon: fa-chevron-down
     url: "#learn_more"
     is_primary: false
-    is_scrolly: false
+    is_scrolly: true
     color: "iran_green"
   - label: Why Subscribe
     icon: fa-question-circle
@@ -22,13 +22,13 @@ header_actions:
     is_scrolly: false
     color: "iran_red"
 header_image:
-  path: "/images/Medicine,Science,andTechnology photo.jpg"
+  path: "/images/Medicine,Science,andTechnologyphoto.jpg"
   phone_border: false
 sections:
   - type: cta
     template: cta
     title: Who is the author of Iranian Economic News?
-    section_id: call_to_action
+    section_id: learn_more
     component: Cta
     subtitle: |-
       Steven Terner is a multi-lingual American scholar and researcher who has spent more than a decade specializing in socio-political and economic analysis of the Middle East and Central/West Asia, with a focus on Iran. His intent is to serve as a cultural liaison, guiding international business in expanding global markets.

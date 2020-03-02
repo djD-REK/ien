@@ -11,7 +11,7 @@ header_actions:
     color: "iran_green"
   - label: Learn More
     icon: fa-chevron-down
-    url: "#learn_more_anchor"
+    url: "#learn_more"
     is_primary: false
     is_scrolly: true
     color: "iran_white"
@@ -27,7 +27,7 @@ header_image:
 sections:
   - type: bodytext
     template: bodytext
-    section_id: why_subscribe
+    section_id: learn_more
     title: Why subscribe to Iranian Economic News?
     component: Bodytext
     paragraphs:
