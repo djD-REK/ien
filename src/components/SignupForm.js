@@ -11,7 +11,7 @@ export default class SignupForm extends React.Component {
     return (
       <section
         id={_.get(this.props, "section.section_id")}
-        className={"wrapper " + background_style + " special"}
+        className={"wrapper " + background_style + " special" + " subscribe"}
       >
         <header className="major">
           <h2>
