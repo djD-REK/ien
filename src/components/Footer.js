@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
             <li>
               <a
                 class="button icon fa-file-pdf-o"
-                href="#"
+                href="/images/IEN-sample1-2020-01-20.pdf"
                 title="Economists Make Policy Recommendations in Open Letter to President"
               >
                 Sample 1
@@ -25,7 +25,7 @@ export default class Footer extends React.Component {
             <li>
               <a
                 class="button icon fa-file-pdf-o"
-                href="#"
+                href="/images/IEN-sample2-2019-10-22.pdf"
                 title="Opposition Mounts against Reopening Commerce Ministry"
               >
                 Sample 2
