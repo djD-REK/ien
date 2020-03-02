@@ -29,7 +29,8 @@ $palette: (
     bg:					#ffffff,
     fg:					#999999,
     fg-bold:			#828282,
-    fg-light:			#e0e0e0,
+    // fg-light:			#e0e0e0,
+    fg-light:			#828282,
     border:				#e6e6e6,
     border-bg:			rgba(144,144,144,0.075),
     border2:			#d6d6d6,
@@ -111,7 +112,8 @@ $palette: (
 
 	@import 'base/reset';
 	@import 'base/page';
-	@import 'base/typography';
+    @import 'base/typography';
+    @import 'base/iran_colors';
 
 // Component.
 
@@ -127,7 +129,10 @@ $palette: (
 	@import 'components/section';
 	@import 'components/spotlight';
 	@import 'components/table';
-	@import 'components/wrapper';
+    @import 'components/wrapper';
+    
+    // Below is custom, above is from Fractal
+    @import 'components/grid';
 
 // Layout.
 

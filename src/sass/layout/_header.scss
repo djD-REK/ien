@@ -6,204 +6,233 @@
 
 /* Header */
 
-	#header {
-		@include color(accent1);
-		@include padding(4.5em, 0);
-		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
-		@include vendor('justify-content', 'center');
+#header {
+  @include color(accent1); //
+  color: white;
+  @include padding(4.5em, 0);
+  @include vendor("align-items", "center");
+  @include vendor("display", "flex");
+  @include vendor("justify-content", "center");
+  /* Fractal background (blue with pattern)
 		background-image: url('images/overlay.png'), url('images/pattern-size1.svg');
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
-		background-size: auto, cover;
-		height: 100vh;
-		min-height: 35em;
+		background-size: auto, cover;*/
+  background-image: url("/images/IranTehrantraffic.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  min-height: 35em;
 
-		h1 {
-			font-size: 3.25em;
-			font-weight: _font(weight-bold);
-			margin-bottom: _size(element-margin) * 0.25;
-		}
+  h1 {
+    font-size: 3.25em;
+    font-weight: _font(weight-bold);
+    margin-bottom: _size(element-margin) * 0.25;
+  }
 
-		p {
-			font-size: 1.5em;
-			line-height: 1.35em;
+  p {
+    font-size: 1.5em;
+    line-height: 1.35em;
 
-			br {
-				display: inline;
-			}
-		}
+    br {
+      display: inline;
+    }
+  }
 
-		.content {
-			@include vendor('transition', ('opacity 0.5s ease', 'transform 1s ease'));
-			@include vendor('transform', 'translateX(0)');
-			opacity: 1;
-			text-align: right;
-			margin: (_size(element-margin) * -1.75) (_size(element-margin) * 2) 0 0;
+  .content {
+    @include vendor("transition", ("opacity 0.5s ease", "transform 1s ease"));
+    @include vendor("transform", "translateX(0)");
+    opacity: 1;
+    text-align: right;
+    margin: (_size(element-margin) * -1.75) (_size(element-margin) * 2) 0 0;
 
-			> :last-child {
-				margin-bottom: 0;
-			}
+    > :last-child {
+      margin-bottom: 0;
+    }
 
-			.actions {
-				@include vendor('justify-content', 'flex-end');
-			}
-		}
+    .actions {
+      @include vendor("justify-content", "flex-end");
+    }
 
-		.image {
-			@include vendor('transition', ('opacity 1s ease', 'transform 1s ease'));
-			@include vendor('transform', 'translateY(0)');
-			opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid black;
+  }
 
-			img {
-				@include vendor('transition', 'opacity 0.75s ease');
-				@include vendor('transition-delay', '0.75s');
-				opacity: 1;
-			}
-		}
+  .image {
+    @include vendor("transition", ("opacity 1s ease", "transform 1s ease"));
+    @include vendor("transform", "translateY(0)");
+    opacity: 1;
 
-		// Large.
-			@include breakpoint('<=large') {
-				background-image: url('images/overlay.png'), url('images/pattern-size2.svg');
-			}
+    // Make all header images the same, even if they don't have the phone border:
+    width: 13em;
+    border-radius: 1em;
 
-		// Medium.
-			@include breakpoint('<=medium') {
-				height: auto;
-				min-height: 0;
+    // Recenter header image
+    top: -1.5em;
 
-				.content {
-					margin: (_size(element-margin) * -1) (_size(element-margin) * 2) 0 0;
+    img {
+      @include vendor("transition", "opacity 0.75s ease");
+      @include vendor("transition-delay", "0.75s");
+      opacity: 1;
+      width: 100%;
+    }
+  }
 
-					.actions {
-						@include vendor('justify-content', 'center');
-					}
-				}
+  // Large.
+  @include breakpoint("<=large") {
+    // background-image: url('images/overlay.png'), url('images/pattern-size2.svg');
+  }
 
-				// Portrait.
-					@include orientation(portrait) {
-						@include padding(6em, 3em);
-						@include vendor('flex-direction', 'column-reverse');
+  // Medium.
+  @include breakpoint("<=medium") {
+    height: auto;
+    min-height: 0;
 
-						.content {
-							display: block;
-							width: 100%;
-							text-align: center;
-							margin: 0 0 _size(element-margin) 0;
-						}
+    .content {
+      margin: (_size(element-margin) * -1) (_size(element-margin) * 2) 0 0;
 
-						.image {
-							overflow: hidden;
-						}
-					}
+      .actions {
+        @include vendor("justify-content", "center");
+      }
+    }
 
-			}
+    // Portrait.
+    @include orientation(portrait) {
+      @include padding(6em, 3em);
+      @include vendor("flex-direction", "column-reverse");
 
-		// Small.
-			@include breakpoint('<=small') {
-				background-image: url('images/overlay.png'), url('images/pattern-size3.svg');
+      .content {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 _size(element-margin) 0;
+      }
 
-				h1 {
-					font-size: 2em;
-				}
+      .image {
+        overflow: hidden;
+      }
+    }
+  }
 
-				p {
-					font-size: 1em;
-					line-height: inherit;
-				}
+  // Small.
+  @include breakpoint("<=small") {
+    // background-image: url('images/overlay.png'), url('images/pattern-size3.svg');
 
-				// Landscape.
-					@include orientation(landscape) {
-						@include padding(2em, 2em);
+    h1 {
+      font-size: 2em;
+    }
 
-						.content {
-							margin: 0 _size(element-margin) _size(element-margin) 0;
-						}
+    p {
+      font-size: 1em;
+      line-height: inherit;
+    }
 
-						.image {
-							font-size: 0.8em;
-							width: 15em;
-							max-width: 20vw;
+    ul {
+      font-size: 0.8em;
+    }
 
-							.inner, &:before, &:after {
-								font-size: 0.8em;
-							}
-						}
-					}
+    // Landscape.
+    @include orientation(landscape) {
+      @include padding(2em, 2em);
 
-				// Portrait.
-					@include orientation(portrait) {
-						@include padding(3em, 1.5em);
+      .content {
+        margin: 0 _size(element-margin) _size(element-margin) 0;
+      }
 
-						.image {
-							font-size: 0.6em;
-							max-width: 60vw;
-						}
-					}
+      .image {
+        font-size: 0.8em;
+        width: 15em;
+        max-width: 20vw;
 
-			}
+        .inner,
+        &:before,
+        &:after {
+          font-size: 0.8em;
+        }
+      }
+    }
 
-		// XSmall.
-			@include breakpoint('<=xsmall') {
+    // Portrait.
+    @include orientation(portrait) {
+      @include padding(3em, 1.5em);
 
-				// Landscape.
-					@include orientation(landscape) {
-						@include padding(2em, 1.5em);
+      .image {
+        font-size: 0.6em;
+        max-width: 60vw;
+      }
+    }
+  }
 
-						.image {
-							font-size: 0.7em;
-						}
+  // XSmall.
+  @include breakpoint("<=xsmall") {
+    h1 {
+      font-size: 1.5em;
+    }
 
-						.actions {
-							font-size: 0.8em;
-						}
-					}
+    p {
+      font-size: 1em;
+    }
 
-				// Portrait.
-					@include orientation(portrait) {
-						@include padding(2em, 1em);
-					}
+    ul {
+      font-size: 1em;
+    }
 
-			}
+    // Landscape.
+    @include orientation(landscape) {
+      @include padding(2em, 1.5em);
 
-		// Mobile.
-			body.is-mobile & {
-				background-attachment: scroll, scroll;
-			}
+      .image {
+        font-size: 0.7em;
+      }
 
-		// Preload.
-			body.is-preload & {
-				.content {
-					@include vendor('transform', 'translateX(2em)');
-					opacity: 0;
-				}
+      .actions {
+        font-size: 0.8em;
+      }
+    }
 
-				.image {
-					@include vendor('transform', 'translateY(4em)');
-					opacity: 0;
+    // Portrait.
+    @include orientation(portrait) {
+      @include padding(2em, 1em);
+    }
+  }
 
-					img {
-						opacity: 0;
-					}
-				}
+  // Mobile.
+  body.is-mobile & {
+    background-attachment: scroll, scroll;
+  }
 
-				// Medium.
-					@include breakpoint('<=medium') {
+  // Preload.
+  body.is-preload & {
+    .content {
+      @include vendor("transform", "translateX(2em)");
+      opacity: 0;
+    }
 
-						// Portrait.
-							@include orientation(portrait) {
-								.content {
-									@include vendor('transform', 'none');
-									opacity: 1;
-								}
+    .image {
+      @include vendor("transform", "translateY(4em)");
+      opacity: 0;
 
-								.image {
-									@include vendor('transform', 'translateY(2em)');
-								}
-							}
+      img {
+        opacity: 0;
+      }
+    }
 
-					}
+    // Medium.
+    @include breakpoint("<=medium") {
+      // Portrait.
+      @include orientation(portrait) {
+        .content {
+          @include vendor("transform", "none");
+          opacity: 1;
+        }
 
-			}
-
-	}
+        .image {
+          @include vendor("transform", "translateY(2em)");
+        }
+      }
+    }
+  }
+}

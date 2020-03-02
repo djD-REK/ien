@@ -5,8 +5,9 @@ import Header from "./Header"
 import Icons from "./Icons"
 import Spotlights from "./Spotlights"
 import Layout from "./Layout"
+import SignupForm from "./SignupForm"
 
-export { Cta, Bodytext, Footer, Header, Icons, Spotlights, Layout }
+export { Cta, Bodytext, Footer, Header, Icons, Spotlights, Layout, SignupForm }
 
 export default {
   Cta,
@@ -15,5 +16,6 @@ export default {
   Header,
   Icons,
   Spotlights,
-  Layout
+  Layout,
+  SignupForm
 }

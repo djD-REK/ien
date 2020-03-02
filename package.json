@@ -1,7 +1,7 @@
 {
-  "name": "ien",
-  "description": "Fractal",
-  "version": "0.0.1",
+  "name": "IEN",
+  "description": "Iranian Economic News, based on a modified version of the Fractal theme",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -30,6 +30,7 @@
     "react-html-parser": "^2.0.2",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
+    "serialize-javascript": "3.0.0",
     "sprintf-js": "^1.1.2"
   },
   "keywords": []

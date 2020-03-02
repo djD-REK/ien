@@ -17,19 +17,15 @@
 			position: relative;
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
+			font-size: 1.25em;
+
 			// Small.
 				@include breakpoint('<=small') {
 					br {
 						display: none;
 					}
 				}
-
-		}
-
-		h2 + p {
-			font-size: 1.25em;
-			margin-top: (_size(element-margin) * -0.25);
-			line-height: 1.5em;
+			
 		}
 
 		h3 + p {
@@ -47,22 +43,48 @@
 		}
 
 		&.major {
-			margin: 0 0 (_size(element-margin) * 1.25) 0;
+			// margin: 0 0 (_size(element-margin) * 1.25) 0;
+			margin: 0;
 			text-align: center;
 
-			&:after {
+			h2 {
+				font-size: 1.5em;
+				margin-top: (_size(element-margin) * -0.25);
+				line-height: 1.5em;
+			}
+
+			p {
+				line-height: 1.5em;
+			}
+
+			ul {
+				margin: 0; // to clear margin, since actions (buttons) have a margin-bottom
+				font-size: 1.25em;
+				line-height: 1.5em;
+				li {
+					padding-bottom: 1.5em;
+
+					/* &:last-of-type { // to remove extra space from a list in CTA section
+						padding-bottom: 0;
+					} */
+	
+				}
+			}
+
+			// Tiny border line separating sections:
+			/*&:after {
 				content: '';
 				border-bottom: solid (_size(border-width) * 2) _palette(border);
 				display: block;
 				width: 4em;
 				margin: _size(element-margin) auto 0 auto;
-			}
+			}*/
 
 			// Small.
 				@include breakpoint('<=small') {
-					margin: 0 0 _size(element-margin) 0;
+					// margin: 0 0 _size(element-margin) 0;
 
-					p {
+					p,ul {
 						font-size: 1em;
 					}
 				}

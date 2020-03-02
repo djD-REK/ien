@@ -64,38 +64,6 @@ models:
           - type: palette
             name: purple
             label: Purple
-  header:
-    type: data
-    file: header.yml
-    label: Header Configuration
-    fields:
-      - type: string
-        name: title_url
-        label: Title URL
-        widget: url
-        description: The link used in the page title
-      - type: markdown
-        name: subtitle
-        label: Header Subtitle
-        description: The text displayed below the page title
-      - type: list
-        name: actions
-        label: Header Actions
-        description: The action buttons displayed in the page header
-        items:
-          type: action
-      - type: object
-        name: img
-        label: Header Image
-        fields:
-          - type: image
-            name: path
-            label: Image
-          - type: boolean
-            name: phone_border
-            label: Header Image Phone Border
-            default: false
-            description: Puts a phone border around the header image
   footer:
     type: data
     file: footer.yml

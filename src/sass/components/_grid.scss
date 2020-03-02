@@ -1,0 +1,97 @@
+///
+/// Fractal by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Grid Wrapper, Grid Heading, and Grid Text */
+/* With mobile responsiveness so image only wraps with header on mobile display */
+/* These classes are only applied if an image is present in the CTA section */
+  
+	// Grid Wrapper for floating images / text wrap
+    .grid_wrapper {
+		display: grid;
+		grid-gap: 1em;
+		grid-template-columns: 40% 60%;
+
+		// Alternate grid images from left (default) to right (alternate)
+		&:nth-of-type(2n) {
+			grid-template-columns: 60% 40%;
+
+			.grid_image {
+				grid-column: 2; /* right-side column for image */
+			}
+			
+			.grid_heading { 
+				grid-column: 1; /* left-side column for header */
+			}
+
+			.grid_text {
+				/* left-side or spread bottom column for text */
+				@include breakpoint('<=xlarge') {
+					grid-column: 1; /* under header on right side */
+				}
+		
+				@include breakpoint('<=large') {
+				}
+		
+				@include breakpoint('<=medium') {
+				}
+		
+				@include breakpoint('<=small') {
+					grid-column: 1 / 3; /* span bottom */		
+				}
+		
+				@include breakpoint('<=xsmall') {
+				}
+			}
+		}
+	}
+
+	// Grid Image for image that switches from left-side column (desktop) to just left of header (mobile)
+	.grid_image {
+		grid-column: 1; /* left-side column */
+
+		@include breakpoint('<=xlarge') {
+			grid-row: 1 / 3; /* left-side column or right-side column */
+		}
+
+		@include breakpoint('<=large') {
+		}
+
+		@include breakpoint('<=medium') {
+		}
+
+		@include breakpoint('<=small') {
+			grid-row: 1; /* left or right of just header */
+		}
+
+		@include breakpoint('<=xsmall') {
+		}	
+	}
+
+	.grid_heading {
+		grid-column: 2; /* right-side heading */
+		grid-row: 1; /* top row */
+	}
+
+	.grid_text {
+		grid-row: 2; // bottom-row
+
+		@include breakpoint('<=xlarge') {
+			grid-column: 2; /* under header on right side */
+		}
+
+		@include breakpoint('<=large') {
+		}
+
+		@include breakpoint('<=medium') {
+		}
+
+		@include breakpoint('<=small') {
+			grid-column: 1 / 3; /* span bottom */		
+		}
+
+		@include breakpoint('<=xsmall') {
+		}
+	}

@@ -1,0 +1,17 @@
+---
+title_url: "#"
+subtitle: A free email newsletter about the Iranian economy
+actions:
+  - label: Subscribe
+    icon: fa-envelope
+    url: "#subscribe"
+    is_primary: false
+    is_scrolly: true
+  - label: Learn More
+    icon: fa-chevron-down
+    url: "#why_subscribe"
+    is_primary: false
+    is_scrolly: true
+img:
+  path: "/images/abbreviated-logo-iran-map.png"
+  phone_border: true
