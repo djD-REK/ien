@@ -12,8 +12,9 @@ export default class SignupForm extends React.Component {
       <section
         id={_.get(this.props, "section.section_id")}
         className={"wrapper " + background_style + " special subscribe"}
+        key="section Signup Form"
       >
-        <header className="major">
+        <header className="major" key="header Signup Form">
           <h2>
             {htmlToReact(
               _.get(this.props, "section.title").replace(/\n/g, "<br />")
@@ -24,7 +25,12 @@ export default class SignupForm extends React.Component {
           class="ml-form-embed"
           data-account="1885136:q8z1d2h6w8"
           data-form="1799288:p1m7k5"
+          key="1799288:p1m7k5"
         ></div>
+        <h5>
+          <em>No subscription form?</em> Try{" "}
+          <a href={"/subscribe-free/"}>reloading the page</a>.
+        </h5>
       </section>
     )
   }
