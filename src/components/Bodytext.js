@@ -5,16 +5,13 @@ import { htmlToReact, markdownify, safePrefix } from "../utils"
 
 export default class Bodytext extends React.Component {
   render() {
-    let background_style = _.get(this.props, 'section.background_style')
-    background_style = background_style === undefined ? "" : background_style + ' '
+    let background_style = _.get(this.props, "section.background_style")
+    background_style =
+      background_style === undefined ? "" : background_style + " "
     return (
       <section
         id={_.get(this.props, "section.section_id")}
-        className={
-          "wrapper " +
-          background_style +
-          " special"
-        }
+        className={"wrapper " + background_style + " special"}
       >
         <header className="major">
           <h2>
@@ -34,23 +31,33 @@ export default class Bodytext extends React.Component {
           ))}
         </ul>
         <header className="major">
-        {_.get(this.props, "section.paragraphs") &&
-          _.map(
-            _.get(this.props, "section.paragraphs"),
-            (paragraph, paragraph_idx) => (
-                <div className={_.get(paragraph, "image") && "grid_wrapper"}>
-                {_.get(paragraph, "image") && (
-                  <div className="grid_image">
-                    <div className="image">
-                      <img src={safePrefix(_.get(paragraph, "image"))} alt="" />
+          {_.get(this.props, "section.paragraphs") &&
+            _.map(
+              _.get(this.props, "section.paragraphs"),
+              (paragraph, paragraph_idx) => (
+                <div
+                  key={"Paragraph " + paragraph_idx}
+                  className={_.get(paragraph, "image") && "grid_wrapper"}
+                >
+                  {_.get(paragraph, "image") && (
+                    <div className="grid_image">
+                      <div className="image">
+                        <img
+                          src={safePrefix(_.get(paragraph, "image"))}
+                          alt={"Image " + _.get(paragraph, "title")}
+                        />
+                      </div>
                     </div>
-                  </div>              
-                )}
-                  <h3 className={_.get(paragraph, "image") && "grid_heading"}>{_.get(paragraph, "title")}</h3>
-                  <div className={_.get(paragraph, "image") && "grid_text"}>{markdownify(_.get(paragraph, "text"))}</div>
+                  )}
+                  <h3 className={_.get(paragraph, "image") && "grid_heading"}>
+                    {_.get(paragraph, "title")}
+                  </h3>
+                  <div className={_.get(paragraph, "image") && "grid_text"}>
+                    {markdownify(_.get(paragraph, "text"))}
+                  </div>
                 </div>
-            )
-          )}
+              )
+            )}
         </header>
       </section>
     )

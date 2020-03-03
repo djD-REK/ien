@@ -1,7 +1,7 @@
 import React from "react"
 import _ from "lodash"
 
-import { Link, htmlToReact, safePrefix } from "../utils"
+import { Link, htmlToReact } from "../utils"
 
 export default class Footer extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
             <span class="icon fa-download" style={{ color: "inherit" }}></span>
           </h3>
           <ul className="actions special">
-            <li>
+            <li key="IEN sample 1">
               <a
                 class="button icon fa-file-pdf-o"
                 href="/images/IEN-sample1-2020-01-20.pdf"
@@ -22,7 +22,7 @@ export default class Footer extends React.Component {
                 Sample 1
               </a>
             </li>
-            <li>
+            <li key="IEN sample 2">
               <a
                 class="button icon fa-file-pdf-o"
                 href="/images/IEN-sample2-2019-10-22.pdf"
@@ -38,17 +38,22 @@ export default class Footer extends React.Component {
             {_.map(
               _.get(this.props, "pageContext.site.data.footer.social_icons"),
               (item, item_idx) => (
-                <li key={item_idx}>
+                <li key={"Footer icon li " + _.get(item, "title")}>
                   <h4>
                     <Link
                       to={_.get(item, "url")}
                       className={"icon " + _.get(item, "icon")}
+                      key={"Footer icon Link " + _.get(item, "title")}
                     >
-                      <span className="label">
+                      <span
+                        className="label"
+                        key={"Footer span label " + _.get(item, "title")}
+                      >
                         &nbsp;{_.get(item, "title")}&nbsp;
                       </span>
                       <span
                         className={"icon " + _.get(item, "icon")}
+                        key={"Footer span icon " + _.get(item, "title")}
                         style={{ color: "inherit" }}
                       ></span>
                     </Link>

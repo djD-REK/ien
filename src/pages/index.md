@@ -28,7 +28,7 @@ sections:
   - type: cta
     template: cta
     title: What is the state of the Iranian economy?
-    section_id: call_to_action
+    section_id: StateOfTheIranianEconomy
     component: Cta
     subtitle: |-
       Iranian Economic News examines Iranian sources and perspectives to understand issues and identify opportunities.
@@ -41,7 +41,7 @@ sections:
     template: cta
     background_style: style2
     title: Iranian Economic News is a free email newsletter covering the Iranian Economy
-    section_id: call_to_action
+    section_id: WhatIsIEN
     component: Cta
     subtitle: |-
       * Stay up-to-date on unfolding Iranian economic matters.
