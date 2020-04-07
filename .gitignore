@@ -59,6 +59,10 @@ typings/
 # public
 public/assets
 public/static
+public/*.js
+public/*.json
+public/page-data
+public/*.map
 # public/images
 
 # Mac files
