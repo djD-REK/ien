@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
             <li key="IEN sample 1">
               <a
                 class="button icon fa-file-pdf-o"
-                href="/images/IEN-sample1-2020-01-20.pdf"
+                href="/images/IEN%20January%202020.pdf"
                 title="Economists Make Policy Recommendations in Open Letter to President"
               >
                 Sample 1
@@ -25,8 +25,8 @@ export default class Footer extends React.Component {
             <li key="IEN sample 2">
               <a
                 class="button icon fa-file-pdf-o"
-                href="/images/IEN-sample2-2019-10-22.pdf"
-                title="Opposition Mounts against Reopening Commerce Ministry"
+                href="/images/IEN%20May%202020.pdf"
+                title="Corona is the Latest Battleground Between Rouhani and the IRGC"
               >
                 Sample 2
               </a>
