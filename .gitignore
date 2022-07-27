@@ -74,6 +74,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+yarn.lock
 
 # Photos reappearing
 public/images/abbreviated-logo-iran-map-extra-wide.png
